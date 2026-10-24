@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-24",
+  "version": "1.3.0",
+  "baseline_version": "1.2.0",
+  "entry": "huishu",
+  "new_independent_entries": 0,
+  "kind": "local_method_extension",
+  "origin": "User correction: prior portfolio directions remained static editorial layouts after full redesign permission; material, space and motion were not considered or temporally verified",
+  "new_upstream_imports": [],
+  "new_runtime_dependencies": [],
+  "local_reference": "modules/art-direction/references/material-space-motion.md",
+  "integration_points": [
+    "direction comparison",
+    "material/light and spatial expression decisions",
+    "key behavior trigger/change/rhythm/end/interruption/return contract",
+    "pre-build concept review",
+    "real-browser normal-motion temporal verification and applicable mobile/reduced-motion alternatives"
+  ],
+  "scope_limits": [
+    "Adopt or reject with task grounds; no mandatory textures, 3D or animation quota",
+    "Approved references, existing DS and local fixes retain short routes",
+    "No global ban derived from one portfolio color/font preference"
+  ],
+  "preserved": [
+    "all taste-v2 code fences and engineering customizations byte-identical",
+    "all legacy modules and Stitch template",
+    "UI UX Pro Max 39 data files and five scripts",
+    "all licenses and NOTICE",
+    "implicit invocation and single entry"
+  ],
+  "previous_record": "integration-20261024.json",
+  "validation_boundary": "static compatibility separate from actual workflow execution, runtime interaction evidence and aesthetic assessment"
+}

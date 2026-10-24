@@ -1,0 +1,80 @@
+[
+  {
+    "module": "brandkit",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 19056,
+    "sha256": "1B1420C6A7C69573E393B285AAC6DD0C5B5BA003986416087564C5DBCF679714"
+  },
+  {
+    "module": "brutalist-skill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 8456,
+    "sha256": "FFFBAAC8597F07679E9D87145533567658AEDBA3B5ECA6F16A7075A333048CAA"
+  },
+  {
+    "module": "gpt-tasteskill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 9097,
+    "sha256": "4C86B082D4761BF2C27FE038CB230BA67C24FC3F3D2FAF3822FC9966827AE4A5"
+  },
+  {
+    "module": "image-to-code-skill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 37894,
+    "sha256": "8EA6A1FEB15209772AE0B91FACE552D5356D5A3D4A20A100C8506E81345B2822"
+  },
+  {
+    "module": "imagegen-frontend-mobile",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 40590,
+    "sha256": "4B325C07D99E870678DDDDF9F81AF46FB1CF09979FA0FD47AC1F7EE42481A838"
+  },
+  {
+    "module": "imagegen-frontend-web",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 37113,
+    "sha256": "765578A704749BA1CDB10D995681775E8AED31F44C30BCEE37979026416C12A3"
+  },
+  {
+    "module": "minimalist-skill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 8496,
+    "sha256": "734CD8B14BB5656C6975A6CF9DC84131BE97E34D82DDD56168402DA61BAFD109"
+  },
+  {
+    "module": "redesign-skill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 15889,
+    "sha256": "220C4E3ABDB8F4E0DFE456572A3D63C89DDDD33A40567B9CC0486EA0786BF51C"
+  },
+  {
+    "module": "soft-skill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 11088,
+    "sha256": "266FB6D28B2B6CF561C920C8DA22FDCE26FDAD931196D3060BE663AA68E7CC35"
+  },
+  {
+    "module": "stitch-skill",
+    "path": "<local-evidence>/DESIGN.md",
+    "bytes": 12049,
+    "sha256": "D6B083D44B02FB3D5F3790197C0D51AA520838F6A39516DBE1A4841150A361E4"
+  },
+  {
+    "module": "stitch-skill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 12106,
+    "sha256": "CD69A8C776E8043935756BFD6EC8330307A271192909C07526D38AF97355F0AD"
+  },
+  {
+    "module": "taste-skill",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 89707,
+    "sha256": "9EF8B780EB66B246B5721BEBAAA9DB80E0140F93BB3F84FD0B8ED27F97DEE71C"
+  },
+  {
+    "module": "taste-skill-v1",
+    "path": "<local-evidence>/SKILL.md",
+    "bytes": 21195,
+    "sha256": "033D45AF1ED23832730642F95F40AB49DB7FB5222848489A6C5656144BFC6DAE"
+  }
+]

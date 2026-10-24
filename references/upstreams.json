@@ -1,0 +1,907 @@
+{
+  "captured_date": "2026-10-21",
+  "evidence_file": "<local-evidence>/sources.json",
+  "groups": [
+    {
+      "skills": [
+        "taste-skill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "path": "skills/taste-skill",
+          "checked_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b",
+          "role": "new_architecture_reference_only_not_automatic_replacement"
+        },
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill-classics",
+          "path": "skills/taste-skill-v2-experimental",
+          "checked_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+          "role": "active_compatibility_line"
+        }
+      ],
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "status": "Selectively integrated tested changes; remaining upstream differences were deliberately retained or deferred.",
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "locally_adapted_selective_merge",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available_major_rewrite",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "compatibility_source": {
+        "repository": "Leonxlnx/taste-skill-classics",
+        "commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+        "path": "skills/taste-skill-v2-experimental",
+        "entry_sha256": "2298b5a24b44fc8e6aeed996a48c2beebe2f9b89f7c1eb924824b92b79341971",
+        "diff_evidence": "<local-evidence>/taste-archived-v2.diff",
+        "note_zh": "官方保留旧单文件调参风格，新增显式调用与StickyStack等局部修复；可作为较低变动的参考，不能把改名覆盖当前默认。"
+      },
+      "latest_integration": {
+        "kind": "selective_merge",
+        "applied_at": "2026-10-21T03:41:13.562640+00:00",
+        "source": {
+          "repo": "Leonxlnx/taste-skill-classics",
+          "commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+          "path": "skills/taste-skill-v2-experimental/SKILL.md",
+          "file_sha256": "2298b5a24b44fc8e6aeed996a48c2beebe2f9b89f7c1eb924824b92b79341971",
+          "license": "MIT"
+        },
+        "adopted": [
+          "StickyStack: distinct per-instance class selectors, outer pin and inner transform, ascending zIndex, cleanups and no CSS-sticky/pin conflict.",
+          "HorizontalPan: container-based nonnegative function distance and refresh recalculation; reduced-motion keeps scrollable focusable panels.",
+          "Explicit transform/opacity transitions replace transition:all.",
+          "Local correction: reduced-motion snap belongs on scrolling wrapper; panels use snap-start; no forced smooth scrolling."
+        ],
+        "rejected": [
+          "New default v2.1.4 scripts/library/browser architecture not adopted.",
+          "Upstream reduced-motion scroll-smooth omitted to preserve instant user-controlled scrolling."
+        ],
+        "evidence": "applied/design-deployed.json"
+      }
+    },
+    {
+      "skills": [
+        "taste-skill-v1"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill-classics",
+          "path": "skills/taste-skill-v1",
+          "checked_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+        }
+      ],
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "status": "Live provenance and all regular files audited. See latest_audit; no installed files changed.",
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "open_source_import_all_regular_files_match_verified_historical_commit",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "latest_decision": {
+        "action": "retain_current_invocation",
+        "reviewed_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+        "reason": "Changes are primarily opt-in/explicit-only metadata. Preserve existing automatic invocation and descriptions; no behavioral fix to merge.",
+        "reconsider_when": "new substantive upstream change or user changes invocation preference"
+      }
+    },
+    {
+      "skills": [
+        "brandkit"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/imagegen-skills",
+          "path": "skills/brandkit",
+          "checked_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+        }
+      ],
+      "status": "Selectively integrated tested changes; remaining upstream differences were deliberately retained or deferred.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "locally_adapted_selective_merge",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "latest_integration": {
+        "kind": "selective_merge",
+        "applied_at": "2026-10-21T03:41:13.562640+00:00",
+        "source": {
+          "repo": "Leonxlnx/imagegen-skills",
+          "commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e",
+          "path": "skills/brandkit/SKILL.md",
+          "file_sha256": "9584a127e535c90b686c8dcb5a707ede586dac6791fbf92cfd118c5fea96f9a0",
+          "license": "MIT"
+        },
+        "adopted": [
+          "Existing brand assets take priority over new-logo/style defaults; explicit refresh changes only requested elements.",
+          "Requested canvas dimensions and orientation take priority; actual supported output size and material crop/layout limits are disclosed.",
+          "Prompt template carries identity mode, supplied assets, canvas and supplied-logo reuse."
+        ],
+        "rejected": [
+          "Blocking generic intake list removed in favor of context inference and only requesting essential unavailable source assets."
+        ],
+        "evidence": "applied/design-deployed.json"
+      }
+    },
+    {
+      "skills": [
+        "brutalist-skill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill-classics",
+          "path": "skills/brutalist-skill",
+          "checked_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+        }
+      ],
+      "status": "Live provenance and all regular files audited. See latest_audit; no installed files changed.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "open_source_import_all_regular_files_match_verified_historical_commit",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "latest_decision": {
+        "action": "retain_current_invocation",
+        "reviewed_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+        "reason": "Changes are primarily opt-in/explicit-only metadata. Preserve existing automatic invocation and descriptions; no behavioral fix to merge.",
+        "reconsider_when": "new substantive upstream change or user changes invocation preference"
+      }
+    },
+    {
+      "skills": [
+        "gpt-tasteskill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill-classics",
+          "path": "skills/gpt-tasteskill",
+          "checked_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+        }
+      ],
+      "status": "Selectively integrated tested changes; remaining upstream differences were deliberately retained or deferred.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "locally_adapted_selective_merge",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "latest_integration": {
+        "kind": "selective_merge",
+        "applied_at": "2026-10-21T03:41:13.562640+00:00",
+        "source": {
+          "repo": "Leonxlnx/taste-skill-classics",
+          "commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+          "path": "skills/gpt-tasteskill/SKILL.md",
+          "file_sha256": "7d630a777b980971521c4a7619a631aa67dd6f713592e57c12473a8caa505238",
+          "license": "MIT"
+        },
+        "adopted": [
+          "Mandatory prefers-reduced-motion branch keeps content static/readable while preserving normal default motion."
+        ],
+        "rejected": [],
+        "evidence": "applied/design-deployed.json"
+      }
+    },
+    {
+      "skills": [
+        "image-to-code-skill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/imagegen-skills",
+          "path": "skills/image-to-code",
+          "checked_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+        }
+      ],
+      "status": "Live provenance and all regular files audited. See latest_audit; no installed files changed.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "open_source_import_all_regular_files_match_verified_historical_commit",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "no_content_update",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified"
+    },
+    {
+      "skills": [
+        "imagegen-frontend-mobile"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/imagegen-skills",
+          "path": "skills/imagegen-frontend-mobile",
+          "checked_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+        }
+      ],
+      "status": "Live provenance and all regular files audited. See latest_audit; no installed files changed.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "open_source_import_all_regular_files_match_verified_historical_commit",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "no_content_update",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified"
+    },
+    {
+      "skills": [
+        "imagegen-frontend-web"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/imagegen-skills",
+          "path": "skills/imagegen-frontend-web",
+          "checked_commit": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e"
+        }
+      ],
+      "status": "Live provenance and all regular files audited. See latest_audit; no installed files changed.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "open_source_import_all_regular_files_match_verified_historical_commit",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "no_content_update",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified"
+    },
+    {
+      "skills": [
+        "minimalist-skill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill-classics",
+          "path": "skills/minimalist-skill",
+          "checked_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+        }
+      ],
+      "status": "Selectively integrated tested changes; remaining upstream differences were deliberately retained or deferred.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "locally_adapted_selective_merge",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "latest_integration": {
+        "kind": "selective_merge",
+        "applied_at": "2026-10-21T03:41:13.562640+00:00",
+        "source": {
+          "repo": "Leonxlnx/taste-skill-classics",
+          "commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+          "path": "skills/minimalist-skill/SKILL.md",
+          "file_sha256": "5746722f8f0e70154790123247efc3f4711c301cbfc1bf2400d5c6d7ab042f99",
+          "license": "MIT"
+        },
+        "adopted": [
+          "Mandatory prefers-reduced-motion branch keeps content static/readable while preserving normal default motion."
+        ],
+        "rejected": [],
+        "evidence": "applied/design-deployed.json"
+      }
+    },
+    {
+      "skills": [
+        "redesign-skill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "path": null,
+          "checked_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b"
+        }
+      ],
+      "status": "Selectively integrated tested changes; remaining upstream differences were deliberately retained or deferred.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "retain_local_legacy_entry_no_auto_delete_or_replacement",
+      "authorship_subtype": "locally_adapted_selective_merge",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "upstream_merged",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "upstream_removed_or_merged",
+      "latest_integration": {
+        "kind": "selective_merge",
+        "applied_at": "2026-10-21T03:41:13.562640+00:00",
+        "source": {
+          "repo": "Leonxlnx/taste-skill",
+          "commit": "6010f91a9935f1c167dfc500fb1a475681892e6b",
+          "path": "skills/taste-skill/SKILL.md",
+          "file_sha256": "d955dae4ba8ab2d994f4bb06b4bf412a1d9875433a8597939c391f4bae91dd7a",
+          "license": "MIT"
+        },
+        "adopted": [
+          "Record existing behavior/brand and before screenshots; compare same widths after change; regress links/forms/validation/menu/keyboard paths."
+        ],
+        "rejected": [
+          "No mandatory upstream inspector or dependency/framework migration."
+        ],
+        "evidence": "applied/design-deployed.json"
+      }
+    },
+    {
+      "skills": [
+        "soft-skill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill-classics",
+          "path": "skills/soft-skill",
+          "checked_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+        }
+      ],
+      "status": "Live provenance and all regular files audited. See latest_audit; no installed files changed.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "open_source_import_all_regular_files_match_verified_historical_commit",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "latest_decision": {
+        "action": "retain_current_invocation",
+        "reviewed_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+        "reason": "Changes are primarily opt-in/explicit-only metadata. Preserve existing automatic invocation and descriptions; no behavioral fix to merge.",
+        "reconsider_when": "new substantive upstream change or user changes invocation preference"
+      }
+    },
+    {
+      "skills": [
+        "stitch-skill"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill-classics",
+          "path": "skills/stitch-skill",
+          "checked_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305"
+        }
+      ],
+      "status": "Live provenance and all regular files audited. See latest_audit; no installed files changed.",
+      "authorship": "open_source_adaptation",
+      "authorship_confidence": "historical_archive_and_official_fixed_commit_verified",
+      "update_policy": "selective_merge_after_source_and_baseline_verification",
+      "authorship_subtype": "open_source_import_all_regular_files_match_verified_historical_commit",
+      "evidence": [
+        "<local-evidence>/taste-source-evidence.json",
+        "Archive README.md: explicit repository installation command",
+        "Archive LICENSE: MIT; Copyright (c) 2026 Leonxlnx",
+        "checks/design-pony.json"
+      ],
+      "preserve": "Respect existing skill roles and v1/v2 distinction; detect and preserve any later local changes; do not claim current entry text was authored by user",
+      "historical_upstreams": [
+        {
+          "repository": "https://github.com/Leonxlnx/taste-skill",
+          "base_commit": null,
+          "path_rule": "skills/<directory-name>/SKILL.md",
+          "historical_archive": "<local-evidence>/taste-skill-main.zip",
+          "archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9"
+        }
+      ],
+      "latest_audit": {
+        "checked_at": "2026-10-21T02:53:22.365496+00:00",
+        "status": "update_available",
+        "installed_changed": false,
+        "evidence": "checks/design-pony.json"
+      },
+      "historical_baseline": {
+        "old_archive_sha256": "4853c9d4ab9eb1975656b0ad34779a8bf7903b97af2deeb4d444e0782d94c4a9",
+        "baseline_zip_sha256": "1f72ecf2f97ae07561674f09a916634fbaa03db9f05ed61e00028b3f0aaeccbd",
+        "old_archive_commit_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_zip_comment": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+        "official_fixed_sha_all_skill_files_match": true,
+        "file_count": 15
+      },
+      "migration_status": "current_official_source_path_verified",
+      "latest_decision": {
+        "action": "retain_current_invocation",
+        "reviewed_commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+        "reason": "Changes are primarily opt-in/explicit-only metadata. Preserve existing automatic invocation and descriptions; no behavioral fix to merge.",
+        "reconsider_when": "new substantive upstream change or user changes invocation preference"
+      }
+    }
+  ],
+  "note": "Historical groups and integration records retain their identities; current_integration records 1.3 local method extension. Never recreate independent entries or replace modules wholesale.",
+  "last_extension_date": "2026-10-24",
+  "current_integration": {
+    "version": "1.4.0",
+    "evidence": "integration-20261024-v14.json",
+    "adopted_sources": [
+      {
+        "repository": "https://github.com/pbakaus/impeccable",
+        "checked_commit": "936867543ac2576920d663cc9803597f6044f3ac",
+        "integrated_commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+        "local_target": "modules/impeccable",
+        "scope": "selected new-work/shape/concept critique and refinement methods translated/adapted; no runtime",
+        "update_policy": "selective_merge_preserve_manual_host_adapter_and_all_existing_design_overrides",
+        "local_targets": [
+          "modules/impeccable",
+          "modules/art-direction"
+        ],
+        "selective_adoptions": [
+          {
+            "date": "2026-10-24",
+            "checked_commit": "936867543ac2576920d663cc9803597f6044f3ac",
+            "adoption": "selective_audit_criteria_clarification",
+            "upstream_path": "skill/reference/audit.md",
+            "local_target": "modules/impeccable/references/review.md",
+            "official_sources": [
+              "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+              "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+            ],
+            "preserve": "Huishu 1.3 local creative/material/space/motion methods, scope, routing and all resources; no runtime import",
+            "declined": [
+              "launcher/craft-floor enforcement does not apply to local manual adapter",
+              "distill content protection already implemented; no duplicate rule",
+              "upstream bans do not override user or project requirements"
+            ]
+          }
+        ]
+      },
+      {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "checked_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "integrated_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "local_target": "modules/ui-ux-pro-max",
+        "scope": "data and five stdlib scripts unchanged; local GUIDE adapted",
+        "update_policy": "update scripts_and_data_as_pinned_unit_after_validation_preserve_local_GUIDE"
+      }
+    ],
+    "evaluated_not_replaced": {
+      "repository": "https://github.com/Leonxlnx/taste-skill",
+      "checked_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b",
+      "report": "taste-mainline-assessment.md"
+    },
+    "local_method_extension": {
+      "origin": "User correction of static-layout bias; local authored integration, no new upstream import",
+      "local_target": "modules/art-direction/references/material-space-motion.md",
+      "scope": "Purposeful material/light, space/depth and motion choices; concept contract and real-browser temporal verification",
+      "preserve": "single entry, prior customizations and existing upstream identities"
+    },
+    "kind": "local_default_rule_conflict_repair",
+    "new_runtime_imports": [],
+    "preserve": "Single entry; actual engineering fixes and runnable code; pinned vendor data/scripts/licenses; explicit v1 and original Stitch template; existing scheduled source updates"
+  },
+  "historical_integration_1_1": {
+    "version": "1.1.0",
+    "evidence": "integration-20261023.json",
+    "adopted_sources": [
+      {
+        "repository": "https://github.com/pbakaus/impeccable",
+        "checked_commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+        "integrated_commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+        "local_target": "modules/impeccable",
+        "scope": "selected design methods, translated/adapted; no runtime",
+        "update_policy": "selective_merge_preserve_manual_host_adapter_and_all_existing_design_overrides"
+      },
+      {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "checked_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "integrated_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "local_target": "modules/ui-ux-pro-max",
+        "scope": "data and five stdlib scripts unchanged; local GUIDE adapted",
+        "update_policy": "update scripts_and_data_as_pinned_unit_after_validation_preserve_local_GUIDE"
+      }
+    ],
+    "evaluated_not_replaced": {
+      "repository": "https://github.com/Leonxlnx/taste-skill",
+      "checked_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b",
+      "report": "taste-mainline-assessment.md"
+    }
+  },
+  "historical_integration_1_2": {
+    "version": "1.2.0",
+    "evidence": "integration-20261024.json",
+    "adopted_sources": [
+      {
+        "repository": "https://github.com/pbakaus/impeccable",
+        "checked_commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+        "integrated_commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+        "local_target": "modules/impeccable",
+        "scope": "selected new-work/shape/concept critique and refinement methods translated/adapted; no runtime",
+        "update_policy": "selective_merge_preserve_manual_host_adapter_and_all_existing_design_overrides",
+        "local_targets": [
+          "modules/impeccable",
+          "modules/art-direction"
+        ]
+      },
+      {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "checked_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "integrated_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "local_target": "modules/ui-ux-pro-max",
+        "scope": "data and five stdlib scripts unchanged; local GUIDE adapted",
+        "update_policy": "update scripts_and_data_as_pinned_unit_after_validation_preserve_local_GUIDE"
+      }
+    ],
+    "evaluated_not_replaced": {
+      "repository": "https://github.com/Leonxlnx/taste-skill",
+      "checked_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b",
+      "report": "taste-mainline-assessment.md"
+    }
+  },
+  "scheduled_updates": [
+    {
+      "date": "2026-10-24",
+      "checked_commit": "936867543ac2576920d663cc9803597f6044f3ac",
+      "adoption": "selective_audit_criteria_clarification",
+      "upstream_path": "skill/reference/audit.md",
+      "local_target": "modules/impeccable/references/review.md",
+      "official_sources": [
+        "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+        "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+      ],
+      "preserve": "Huishu 1.3 local creative/material/space/motion methods, scope, routing and all resources; no runtime import",
+      "declined": [
+        "launcher/craft-floor enforcement does not apply to local manual adapter",
+        "distill content protection already implemented; no duplicate rule",
+        "upstream bans do not override user or project requirements"
+      ]
+    }
+  ],
+  "historical_integration_1_3": {
+    "version": "1.3.0",
+    "evidence": "integration-20261024-v13.json",
+    "adopted_sources": [
+      {
+        "repository": "https://github.com/pbakaus/impeccable",
+        "checked_commit": "936867543ac2576920d663cc9803597f6044f3ac",
+        "integrated_commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+        "local_target": "modules/impeccable",
+        "scope": "selected new-work/shape/concept critique and refinement methods translated/adapted; no runtime",
+        "update_policy": "selective_merge_preserve_manual_host_adapter_and_all_existing_design_overrides",
+        "local_targets": [
+          "modules/impeccable",
+          "modules/art-direction"
+        ],
+        "selective_adoptions": [
+          {
+            "date": "2026-10-24",
+            "checked_commit": "936867543ac2576920d663cc9803597f6044f3ac",
+            "adoption": "selective_audit_criteria_clarification",
+            "upstream_path": "skill/reference/audit.md",
+            "local_target": "modules/impeccable/references/review.md",
+            "official_sources": [
+              "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+              "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+            ],
+            "preserve": "Huishu 1.3 local creative/material/space/motion methods, scope, routing and all resources; no runtime import",
+            "declined": [
+              "launcher/craft-floor enforcement does not apply to local manual adapter",
+              "distill content protection already implemented; no duplicate rule",
+              "upstream bans do not override user or project requirements"
+            ]
+          }
+        ]
+      },
+      {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "checked_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "integrated_commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "local_target": "modules/ui-ux-pro-max",
+        "scope": "data and five stdlib scripts unchanged; local GUIDE adapted",
+        "update_policy": "update scripts_and_data_as_pinned_unit_after_validation_preserve_local_GUIDE"
+      }
+    ],
+    "evaluated_not_replaced": {
+      "repository": "https://github.com/Leonxlnx/taste-skill",
+      "checked_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b",
+      "report": "taste-mainline-assessment.md"
+    },
+    "local_method_extension": {
+      "origin": "User correction of static-layout bias; local authored integration, no new upstream import",
+      "local_target": "modules/art-direction/references/material-space-motion.md",
+      "scope": "Purposeful material/light, space/depth and motion choices; concept contract and real-browser temporal verification",
+      "preserve": "single entry, prior customizations and existing upstream identities"
+    }
+  }
+}

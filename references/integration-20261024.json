@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-24",
+  "version": "1.2.0",
+  "baseline_version": "1.1.0",
+  "entry": "huishu",
+  "new_independent_entries": 0,
+  "impeccable_method_extension": {
+    "repository": "https://github.com/pbakaus/impeccable",
+    "commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2025 Paul Bakaus",
+    "local_modified_at": "2026-10-24",
+    "kind": "Chinese translated, reorganized and host-adapted method selection; no upstream runtime",
+    "mappings": [
+      {
+        "local": "modules/art-direction/GUIDE.md",
+        "sources": [
+          "skill/reference/new-work.md",
+          "skill/reference/shape.md",
+          "skill/reference/critique.md"
+        ],
+        "adopted": "visual authority, grounded direction comparison, first viewport and visitor path contract, finite finish review"
+      },
+      {
+        "local": "modules/impeccable/references/concept-review.md",
+        "sources": [
+          "skill/reference/new-work.md",
+          "skill/reference/shape.md",
+          "skill/reference/critique.md"
+        ],
+        "adopted": "pre-build concept check, design specificity before mechanics, content discovery, mobile path, render review"
+      }
+    ],
+    "files": [
+      {
+        "path": "skill/reference/new-work.md",
+        "sha256": "0250901645c9e14914a7fd10a84bdb6006cf492a81b0ff2fa6f74757b078e907",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/new-work.md",
+        "status": "new reference source in 1.2"
+      },
+      {
+        "path": "skill/reference/shape.md",
+        "sha256": "51960b514f8437baf12484dd5be824e0c2d0ee8802e29e7f511e431493a6c417",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/shape.md",
+        "status": "new reference source in 1.2"
+      },
+      {
+        "path": "skill/reference/critique.md",
+        "sha256": "6d99e8833e4bdd15bb7d255bb3a94570af73bfecbc53efb541f93aece6c75040",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/critique.md",
+        "status": "already registered in 1.1; reused"
+      }
+    ]
+  },
+  "routing": {
+    "replace_open": "art-direction: actual focused search, external calibration when allowed and available, distinct candidates, viewport/path commitments, concept review before code and after screenshots",
+    "preserve_extend": "approved reference/DS, local fixes and audits retain short routes",
+    "taste_v2": "optional compatibility and implementation reference after choosing direction; no longer universal new-work default",
+    "taste_v1": "explicit legacy compatibility retained without mixing v2"
+  },
+  "preserved": [
+    "taste-v2 fenced code and existing engineering safety fixes",
+    "taste-v1 and other legacy modules plus Stitch template",
+    "UI UX Pro Max 39 data files and five scripts",
+    "all original license and NOTICE bytes",
+    "implicit invocation and single entry"
+  ],
+  "historical_imports_record": "integration-20261023.json",
+  "validation_boundary": "static compatibility and actual task/visual effect are separate; no aesthetic improvement claimed by this record"
+}

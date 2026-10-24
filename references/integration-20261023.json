@@ -1,0 +1,427 @@
+{
+  "date": "2026-10-23",
+  "version": "1.1.0",
+  "entry": "huishu",
+  "new_independent_entries": 0,
+  "impeccable": {
+    "repository": "https://github.com/pbakaus/impeccable",
+    "commit": "5cb95eea9c96479f57afe0732a45470d30183326",
+    "commit_time": "2026-10-23T08:49:46+08:00",
+    "checked_at": "2026-10-23",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2025 Paul Bakaus",
+    "kind": "local translated and compatibility-adapted selection, not upstream runtime",
+    "files": [
+      {
+        "path": "skill/SKILL.src.md",
+        "sha256": "3d1507e24d823583776da25087527ec2aeaa6e86339f300e676925ee7f70db50",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/SKILL.src.md"
+      },
+      {
+        "path": "skill/reference/critique.md",
+        "sha256": "6d99e8833e4bdd15bb7d255bb3a94570af73bfecbc53efb541f93aece6c75040",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/critique.md"
+      },
+      {
+        "path": "skill/reference/audit.md",
+        "sha256": "a9c51b944b0a4bd754a5059eb3ce2303d9cfb0bf455431f1247d54e7a641e023",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/audit.md"
+      },
+      {
+        "path": "skill/reference/typeset.md",
+        "sha256": "7d614d2c1c15fb89fffb8720808401325d305837d3fe44e7f37b64be3b914456",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/typeset.md"
+      },
+      {
+        "path": "skill/reference/layout.md",
+        "sha256": "2f427707a043ed181c6af058ce01df6f01c2a2be9ce71e0c52ac2bb8fbbdf9e3",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/layout.md"
+      },
+      {
+        "path": "skill/reference/colorize.md",
+        "sha256": "63ba14fd2af6b79768fdb0bd5ba9b23b97f625bfcee181f4fc1e7aacafd13f0a",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/colorize.md"
+      },
+      {
+        "path": "skill/reference/operate.md",
+        "sha256": "032bee97203c5a6036aefcae0294c9c3e32f56c356f0631f0d75a7aeab231e2a",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/operate.md"
+      },
+      {
+        "path": "skill/reference/polish.md",
+        "sha256": "40afe65d3efe399937a799d1ebfac81f6aa215a11587ff9e82c1cac099750636",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/polish.md"
+      },
+      {
+        "path": "skill/reference/distill.md",
+        "sha256": "5390f0d5faf8a558dd1dc82803afd264a4cc947fff54a21222b2af4b5b57c724",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/distill.md"
+      },
+      {
+        "path": "skill/reference/quieter.md",
+        "sha256": "29217ae1d54ef5e75841f585e0cce261a8e58cf384f95953dd6600b87a483c91",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/quieter.md"
+      },
+      {
+        "path": "skill/reference/bolder.md",
+        "sha256": "05cd72b3c227ac824fea66a7420d0ebd117b87c20edf8652f2588932f35d6e40",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/bolder.md"
+      },
+      {
+        "path": "skill/reference/craft-floor.md",
+        "sha256": "f96b747a8ca28e1e1f18777d73a4cda7b71bb7832b71d15dea2e87a0d691920d",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/skill/reference/craft-floor.md"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "fc0673369dae07c045c46869d3d4c9113678c77fcc7d3b4e3a39ac074cfa68b6",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/LICENSE"
+      },
+      {
+        "path": "NOTICE.md",
+        "sha256": "9bc6cf69fa566aaaf6fa5cf40397597eab8b39f497de61728da7bcf0930db207",
+        "url": "https://github.com/pbakaus/impeccable/blob/5cb95eea9c96479f57afe0732a45470d30183326/NOTICE.md"
+      }
+    ]
+  },
+  "ui_ux_pro_max": {
+    "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "commit": "d14efff8ed1faa4187f004f79926f428c8074ec7",
+    "license": "MIT",
+    "mode": "vendored stdlib search and complete supporting data; adapted GUIDE only",
+    "imports": [
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/app-interface.csv",
+        "local_path": "modules/ui-ux-pro-max/data/app-interface.csv",
+        "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/catalog-summary.json",
+        "local_path": "modules/ui-ux-pro-max/data/catalog-summary.json",
+        "sha256": "6638da97231c07fb5cef3cd9d3ce483ca7b2f9748980f8c27490eb03968d8894"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/charts.csv",
+        "local_path": "modules/ui-ux-pro-max/data/charts.csv",
+        "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/colors.csv",
+        "local_path": "modules/ui-ux-pro-max/data/colors.csv",
+        "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/data-provenance.json",
+        "local_path": "modules/ui-ux-pro-max/data/data-provenance.json",
+        "sha256": "e82fb33ed49375a300e93d9c11ccd1c1493c999e84ee7ee295e527634786e2e0"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/google-font-licenses.json",
+        "local_path": "modules/ui-ux-pro-max/data/google-font-licenses.json",
+        "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/google-fonts.csv",
+        "local_path": "modules/ui-ux-pro-max/data/google-fonts.csv",
+        "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/icons.csv",
+        "local_path": "modules/ui-ux-pro-max/data/icons.csv",
+        "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/landing.csv",
+        "local_path": "modules/ui-ux-pro-max/data/landing.csv",
+        "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/motion.csv",
+        "local_path": "modules/ui-ux-pro-max/data/motion.csv",
+        "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+        "local_path": "modules/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+        "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/products.csv",
+        "local_path": "modules/ui-ux-pro-max/data/products.csv",
+        "sha256": "42473f75e8dde5987bdf89ce55d8c168091b80a356cae691dd60247d80720b70"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/react-performance.csv",
+        "local_path": "modules/ui-ux-pro-max/data/react-performance.csv",
+        "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/styles.csv",
+        "local_path": "modules/ui-ux-pro-max/data/styles.csv",
+        "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/typography.csv",
+        "local_path": "modules/ui-ux-pro-max/data/typography.csv",
+        "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/ui-reasoning.csv",
+        "local_path": "modules/ui-ux-pro-max/data/ui-reasoning.csv",
+        "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/ux-guidelines.csv",
+        "local_path": "modules/ui-ux-pro-max/data/ux-guidelines.csv",
+        "sha256": "ff81ec613f70ba9fc3fcce52dbe4ae35d44b2079dbe6dc066d2d6e38c28facd5"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/angular.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/angular.csv",
+        "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/astro.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/astro.csv",
+        "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/avalonia.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/avalonia.csv",
+        "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/flutter.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/flutter.csv",
+        "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+        "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/javafx.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/javafx.csv",
+        "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+        "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/laravel.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/laravel.csv",
+        "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/nextjs.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/nextjs.csv",
+        "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+        "sha256": "fce682a338cfcdbf35d318d20e5befbe7b5d81b05abc37f87677a6d9cde84dc6"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+        "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/react-native.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/react-native.csv",
+        "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/react.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/react.csv",
+        "sha256": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/shadcn.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/shadcn.csv",
+        "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/svelte.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/svelte.csv",
+        "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/swiftui.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/swiftui.csv",
+        "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/threejs.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/threejs.csv",
+        "sha256": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/uno.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/uno.csv",
+        "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/uwp.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/uwp.csv",
+        "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/vue.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/vue.csv",
+        "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/winui.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/winui.csv",
+        "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/data/stacks/wpf.csv",
+        "local_path": "modules/ui-ux-pro-max/data/stacks/wpf.csv",
+        "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/scripts/core.py",
+        "local_path": "modules/ui-ux-pro-max/scripts/core.py",
+        "sha256": "c3be4b23e7150e6b45095213158cfa3c8ad96502f01dde3f6ffff9de64a4f481"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/scripts/search.py",
+        "local_path": "modules/ui-ux-pro-max/scripts/search.py",
+        "sha256": "0e106775eed61e2954c0af41e9ed73b816c3bfbb2de936e07957907db846b7d6"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/scripts/design_system.py",
+        "local_path": "modules/ui-ux-pro-max/scripts/design_system.py",
+        "sha256": "e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/scripts/reasoning_contract.py",
+        "local_path": "modules/ui-ux-pro-max/scripts/reasoning_contract.py",
+        "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913"
+      },
+      {
+        "upstream_path": "src/ui-ux-pro-max/scripts/validate_data.py",
+        "local_path": "modules/ui-ux-pro-max/scripts/validate_data.py",
+        "sha256": "0a40f854159a855133d08e73795abf94a8cb30f84c02f4d6e1d1c7a62225b2b6"
+      }
+    ],
+    "not_imported": [
+      "templates and SKILL entrypoints",
+      "installers",
+      "platform adapters",
+      "network catalog refreshers",
+      "upstream test fixtures"
+    ]
+  },
+  "taste_assessment": {
+    "repository": "https://github.com/Leonxlnx/taste-skill",
+    "checked_commit": "6010f91a9935f1c167dfc500fb1a475681892e6b",
+    "decision": "retain Classics/v1 and current defaults; no new runtime imported",
+    "report": "references/taste-mainline-assessment.md",
+    "read_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "3c9f63518df3378772203cc64d38d9e381d2a4723b93d2c3849b2bf3d464de0c",
+        "scope": "full"
+      },
+      {
+        "path": "README.md",
+        "sha256": "7234644e66e6b050b4f47ffceb4328eef516f40624242b7fd9c12a5deecd65cc",
+        "scope": "official GitHub rendered page; key installation, runtime, cost sections"
+      },
+      {
+        "path": "skills/taste-skill/SKILL.md",
+        "sha256": "3b3b99bfa39a3c8872ac397be7944cfd8d2a7b80d752bfded6c96bb25d41cf5e",
+        "scope": "full with long output truncation; core run, house rules, special cases and file map captured"
+      },
+      {
+        "path": "skills/taste-skill/references/app-screens.md",
+        "sha256": "84b4bd52e47e3f2b6a6e90767866e9a9059a99589e43544f5344d54bf5ae8b0c",
+        "scope": "selected excerpts: introduction, evidence limits, app run 2.1-2.8, shell, selected later sections"
+      },
+      {
+        "path": "skills/taste-skill/references/research.md",
+        "sha256": "b52b2939a2196c201b4e4b6811728c2a6e0c54c79b0a603db72456debc62b12a",
+        "scope": "method, tables and source limits; sections 9-13"
+      },
+      {
+        "path": "skills/taste-skill/references/critique.md",
+        "sha256": "8fd1487c3ea43ba9877ab508db2833cc8dff7b59a2f962eb298ef0534598ed76",
+        "scope": "full critique passes, scoring, caps and stop rule"
+      },
+      {
+        "path": "skills/taste-skill/references/scenes.md",
+        "sha256": "765f1cc2b1e79e16a171737f8bdd47636d01c7d74ecd5a4b29cc5dedea3f6605",
+        "scope": "introduction, setup and dependency guidance"
+      },
+      {
+        "path": "skills/taste-skill/references/imagery.md",
+        "sha256": "997e995bbd8e2d1b98b0c5b6c39baa992beb60abc33a8267585f15f70f1d6c15",
+        "scope": "selected asset search, source/identity and attribution guidance"
+      },
+      {
+        "path": "skills/taste-skill/scripts/draw.mjs",
+        "sha256": "5dda04dc79b790972be0b3b5c11f1663e0ab1d2f27ff36c70be5cc2f7deb6932",
+        "scope": "imports, output/history, library loading, scene handling and source grep"
+      },
+      {
+        "path": "skills/taste-skill/scripts/lib/app-draw.mjs",
+        "sha256": "952a381279c89bffb4c541844725e21a88ee6a9620a878d9c8b6c7fdb97ef5f7",
+        "scope": "imports, complete route/options/deal/history/output path through line 125"
+      },
+      {
+        "path": "skills/taste-skill/scripts/lint.mjs",
+        "sha256": "5ea16dac38742505ddea95d65f7d8029e6f9590718ad07a0343426e99250af4e",
+        "scope": "imports, file scan, app relaxations and regex rule excerpts"
+      },
+      {
+        "path": "skills/taste-skill/scripts/inspect.mjs",
+        "sha256": "1d03893004c41fe419426e5b23d97e5b146fc94becd8a8a6b4e3a2f029dc53c0",
+        "scope": "lines 1-90 plus targeted output/launch/exit references"
+      },
+      {
+        "path": "skills/taste-skill/scripts/scenes.mjs",
+        "sha256": "fcba8308b18e1c57471dfd0e95432f9c865c84493110be2b1e1a15e14c47f206",
+        "scope": "targeted browser/server/output references"
+      },
+      {
+        "path": "skills/taste-skill/scripts/assets.mjs",
+        "sha256": "27b8c99be3a6ef7e66b7fcefa5abeceabc0ae20535975e67e079f5ff384c4b39",
+        "scope": "targeted dependency, network, licence defaults/notes and download/credit excerpts"
+      },
+      {
+        "path": "skills/taste-skill/scripts/lib/cdp.mjs",
+        "sha256": "33fd60f0efe967d25643cfe6920ff2543da285b6bf85f3d991f65d753a06d655",
+        "scope": "full through line 260"
+      },
+      {
+        "path": "skills/taste-skill/scripts/lib/rules.mjs",
+        "sha256": "7e43f89501276541224923fd5a8ec039afe3bedeb203f160b4c0283ed3781350",
+        "scope": "targeted rules, app exclusions, IDs and contrast/font/layout snippets"
+      },
+      {
+        "path": "skills/taste-skill/assets/scenes/stage.js",
+        "sha256": "fb95ea271aec7b565d81d85dc9d89c0d7be075f83fa418161e884e88c86b778d",
+        "scope": "dependency/header and API grep"
+      },
+      {
+        "path": "skills/taste-skill/assets/base.js",
+        "sha256": "d91500dacc88b093a35d54c6e1d55113c63be7664f64a3f75f1b50706b2dda13",
+        "scope": "dependency/source grep"
+      },
+      {
+        "path": "tests/frontmatter.mjs",
+        "sha256": "31a9eef9edc110afb394a815b2234622c27714fc89ae7436357d91c338286282",
+        "scope": "full"
+      }
+    ]
+  },
+  "preserve": "All 13 legacy module/template files are unchanged; old source evidence is historical.",
+  "evidence_boundary": "Structure and retrieval execution only; no real UI A/B or host auto-loading claim."
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-24",
+  "version": "1.4.0",
+  "baseline_version": "1.3.0",
+  "kind": "local_default_rule_conflict_repair",
+  "new_entries": 0,
+  "new_upstream_imports": [],
+  "scope": "Remove contradictory aesthetic vetoes, recipe quotas and stack assumptions in active instructions; preserve purpose, brand, data, safety and selected style identities. No new dark/metal template.",
+  "changed_before_record": [
+    "CREDITS.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "modules/art-direction/GUIDE.md",
+    "modules/art-direction/references/material-space-motion.md",
+    "modules/brutalist-skill/GUIDE.md",
+    "modules/gpt-tasteskill/GUIDE.md",
+    "modules/image-to-code-skill/GUIDE.md",
+    "modules/imagegen-frontend-mobile/GUIDE.md",
+    "modules/imagegen-frontend-web/GUIDE.md",
+    "modules/impeccable/GUIDE.md",
+    "modules/impeccable/references/refinement.md",
+    "modules/minimalist-skill/GUIDE.md",
+    "modules/redesign-skill/GUIDE.md",
+    "modules/soft-skill/GUIDE.md",
+    "modules/stitch-skill/GUIDE.md",
+    "modules/taste-skill/GUIDE.md",
+    "references/compatibility.md",
+    "references/maintenance.md",
+    "references/upstreams.json"
+  ],
+  "code_fence_exception": "modules/stitch-skill/GUIDE.md markdown output skeleton is adapted; all runnable code fences preserved",
+  "preserved": [
+    "taste 5.A-5.C GSAP/React implementation code and owned trigger cleanup/pin transform/refresh safeguards",
+    "truthful content and explicit authorization boundaries",
+    "all vendor data/scripts and licenses",
+    "taste-v1 explicit compatibility and original Stitch DESIGN.md",
+    "existing scheduled_updates in upstreams and current WCAG audit criteria"
+  ],
+  "technical_sources": [
+    "https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event",
+    "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Animation_performance_and_frame_rate"
+  ],
+  "boundary": "Static contradiction repair and forward task evidence; no new site generation or broad aesthetic effect claim."
+}

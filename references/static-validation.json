@@ -1,0 +1,528 @@
+{
+  "level": "static",
+  "files": [
+    {
+      "target": "modules/brandkit/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "1b1420c6a7c69573e393b285aac6dd0c5b5ba003986416087564c5dbcf679714",
+      "candidate_sha256": "873ff1c843ebfd815c9330d2064b96c13e2682c45ebc4f15dcad549faa4f4aec"
+    },
+    {
+      "target": "modules/brutalist-skill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "fffbaac8597f07679e9d87145533567658aedba3b5eca6f16a7075a333048caa",
+      "candidate_sha256": "11ddced4172e40421c912307ee51c10b5b86c46dcbac45f3752bdce8f94da64f"
+    },
+    {
+      "target": "modules/gpt-tasteskill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "4c86b082d4761bf2c27fe038cb230ba67c24fc3f3d2faf3822fc9966827ae4a5",
+      "candidate_sha256": "ca19b12f29eb83980c4e17ab24d30fabf5ed976ceaa7fa11b130b6fcb1bbb5d6"
+    },
+    {
+      "target": "modules/image-to-code-skill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "8ea6a1feb15209772ae0b91face552d5356d5a3d4a20a100c8506e81345b2822",
+      "candidate_sha256": "1d4920adc3bd3e4030180447be7a465519653f59d8657170920d2e736fc7ca0a"
+    },
+    {
+      "target": "modules/imagegen-frontend-mobile/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "4b325c07d99e870678ddddf9f81af46fb1cf09979fa0fd47ac1f7ee42481a838",
+      "candidate_sha256": "c4947d9d35f95e7810c64fe9d5946465821bc99cb7aff6c16400fe8994f88f3c"
+    },
+    {
+      "target": "modules/imagegen-frontend-web/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "765578a704749ba1cdb10d995681775e8aed31f44c30bcee37979026416c12a3",
+      "candidate_sha256": "7b168efcf863141474d2954b24c87146c99002a3e5fb4a46cbc5ddc9f8b39dec"
+    },
+    {
+      "target": "modules/minimalist-skill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "734cd8b14bb5656c6975a6cf9dc84131be97e34d82ddd56168402da61bafd109",
+      "candidate_sha256": "da8b9d0c52eb890ac029cc3c21a8398936b168598399e16a05d6564b010d2736"
+    },
+    {
+      "target": "modules/redesign-skill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "220c4e3abdb8f4e0dfe456572a3d63c89dddd33a40567b9cc0486ea0786bf51c",
+      "candidate_sha256": "42e8cb78b6d2ec735e3de4973151aeb56ad44931c1260dc1b06eba323295110e"
+    },
+    {
+      "target": "modules/soft-skill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "266fb6d28b2b6cf561c920c8da22fdce26fdad931196d3060be663aa68e7cc35",
+      "candidate_sha256": "cdd4745379e2d3b7e99d1143d0d7dee5292149120055763c3233269af8f462e4"
+    },
+    {
+      "target": "modules/stitch-skill/DESIGN.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "d6b083d44b02fb3d5f3790197c0d51aa520838f6a39516dbe1a4841150a361e4",
+      "candidate_sha256": "d6b083d44b02fb3d5f3790197c0d51aa520838f6a39516dbe1a4841150a361e4"
+    },
+    {
+      "target": "modules/stitch-skill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "cd69a8c776e8043935756bfd6ec8330307a271192909c07526d38af97355f0ad",
+      "candidate_sha256": "afa4bebd5d9da3275ca8b75957cb0965f201de63895b0729fd6002c687682938"
+    },
+    {
+      "target": "modules/taste-skill/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "9ef8b780eb66b246b5721bebaaa9db80e0140f93bb3f84fd0b8ed27f97dee71c",
+      "candidate_sha256": "48f071e39c01e345bda294bcccaa2ccc2474c03638cac9aeff41c67aa06d467d"
+    },
+    {
+      "target": "modules/taste-skill-v1/GUIDE.md",
+      "original_byte_exact_after_bridge_removal": true,
+      "source_sha256": "033d45af1ed23832730642f95f40ab49db7fb5222848489a6c5656144bfc6dae",
+      "candidate_sha256": "6b500c6ebe243877a6270e83226cbdd63d640324d177638f23dfaff3949aea44"
+    }
+  ],
+  "links": [
+    {
+      "file": "CREDITS.md",
+      "link": "licenses/Leonxlnx-MIT.txt",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "CREDITS.md",
+      "link": "references/upstreams.json",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/taste-skill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/taste-skill-v1/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/redesign-skill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/image-to-code-skill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/imagegen-frontend-web/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/imagegen-frontend-mobile/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/brandkit/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/stitch-skill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/stitch-skill/DESIGN.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/brutalist-skill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/gpt-tasteskill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/minimalist-skill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "modules/soft-skill/GUIDE.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "references/maintenance.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "SKILL.md",
+      "link": "CREDITS.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "references/maintenance.md",
+      "link": "upstreams.json",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "references/maintenance.md",
+      "link": "coverage.json",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "references/maintenance.md",
+      "link": "source-inventory.json",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "references/maintenance.md",
+      "link": "static-validation.json",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "references/maintenance.md",
+      "link": "../CREDITS.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/brandkit/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/brandkit/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/brutalist-skill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/brutalist-skill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/gpt-tasteskill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/gpt-tasteskill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/image-to-code-skill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/image-to-code-skill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/imagegen-frontend-mobile/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/imagegen-frontend-mobile/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/imagegen-frontend-web/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/imagegen-frontend-web/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/minimalist-skill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/minimalist-skill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/redesign-skill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/redesign-skill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/soft-skill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/soft-skill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/stitch-skill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/stitch-skill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/stitch-skill/GUIDE.md",
+      "link": "DESIGN.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/taste-skill/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/taste-skill/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/taste-skill-v1/GUIDE.md",
+      "link": "../../SKILL.md",
+      "exists": true,
+      "inside_skill": true
+    },
+    {
+      "file": "modules/taste-skill-v1/GUIDE.md",
+      "link": "../../references/compatibility.md",
+      "exists": true,
+      "inside_skill": true
+    }
+  ],
+  "snapshot_source_verification": [
+    {
+      "module": "brandkit",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/brandkit",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "brutalist-skill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/brutalist-skill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "gpt-tasteskill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/gpt-tasteskill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "image-to-code-skill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/image-to-code-skill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "imagegen-frontend-mobile",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/imagegen-frontend-mobile",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "imagegen-frontend-web",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/imagegen-frontend-web",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "minimalist-skill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/minimalist-skill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "redesign-skill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/redesign-skill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "soft-skill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/soft-skill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "stitch-skill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/stitch-skill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "taste-skill",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/taste-skill",
+        "source_checked": true
+      }
+    },
+    {
+      "module": "taste-skill-v1",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "command": "verify",
+        "run_dir": "<local-evidence>/taste-skill-v1",
+        "source_checked": true
+      }
+    }
+  ],
+  "nested_skill_files": [
+    "SKILL.md"
+  ],
+  "source_file_count": 13,
+  "module_count": 12,
+  "original_byte_exact_after_bridge_removal": true,
+  "all_real_markdown_links_reachable": true,
+  "source_snapshots_match": true,
+  "not_executed": [
+    "host discovery",
+    "automatic invocation",
+    "business image generation",
+    "frontend implementation",
+    "browser",
+    "remote Stitch",
+    "independent behavioral comparison"
+  ],
+  "official_quick_validate": {
+    "status": "pass",
+    "output": "Skill is valid!",
+    "validator": "<local-evidence>/quick_validate.py",
+    "runtime": "<local-evidence>/python.exe",
+    "dependency": "Existing invoke/vendor/yaml prepended to sys.path; no install",
+    "initial_attempts": "Direct system Python and bundled Python could not import yaml; existing vendored dependency resolved it."
+  },
+  "pre_capture_review": {
+    "source_file_count": 13,
+    "modules": 12,
+    "reparse_points": 0,
+    "credential_pattern_hits": 0,
+    "irrelevant_raw_materials": 0,
+    "note": "Inventory and credential-pattern scan before capture, no secret values recorded."
+  }
+}

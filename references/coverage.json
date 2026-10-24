@@ -1,0 +1,132 @@
+[
+  {
+    "module": "brandkit",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/brandkit/GUIDE.md",
+    "source_sha256": "1b1420c6a7c69573e393b285aac6dd0c5b5ba003986416087564c5dbcf679714",
+    "candidate_sha256": "873ff1c843ebfd815c9330d2064b96c13e2682c45ebc4f15dcad549faa4f4aec",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：生成品牌识别总览板图像；先判断现有品牌延展或授权重塑。品牌板的分格不采用网页逐节单图规则。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "brutalist-skill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/brutalist-skill/GUIDE.md",
+    "source_sha256": "fffbaac8597f07679e9d87145533567658aedba3b5eca6f16a7075a333048caa",
+    "candidate_sha256": "11ddced4172e40421c912307ee51c10b5b86c46dcbac45f3752bdce8f94da64f",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：仅在选择工业粗野风格时启用；Swiss Print 与 Tactical Telemetry 二选一。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "gpt-tasteskill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/gpt-tasteskill/GUIDE.md",
+    "source_sha256": "4c86b082d4761bf2c27fe038cb230ba67c24fc3f3d2faf3822fc9966827ae4a5",
+    "candidate_sha256": "ca19b12f29eb83980c4e17ab24d30fabf5ed976ceaa7fa11b130b6fcb1bbb5d6",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：仅在选择电影式营销或作品集方向时启用 GSAP/AIDA；明确静态与 reduced-motion 走可读终态。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "image-to-code-skill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/image-to-code-skill/GUIDE.md",
+    "source_sha256": "8ea6a1feb15209772ae0b91face552d5356d5a3d4a20a100c8506e81345b2822",
+    "candidate_sha256": "1d4920adc3bd3e4030180447be7a465519653f59d8657170920d2e736fc7ca0a",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：先选择已有参考、新建参考或直接实现；只有新参考路线触发生成数量和顺序要求。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "imagegen-frontend-mobile",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/imagegen-frontend-mobile/GUIDE.md",
+    "source_sha256": "4b325c07d99e870678ddddf9f81af46fb1cf09979fa0fd47ac1f7ee42481a838",
+    "candidate_sha256": "c4947d9d35f95e7810c64fe9d5946465821bc99cb7aff6c16400fe8994f88f3c",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：只交付移动 App 屏幕或流程图像；代码实现是另一个经用户要求的阶段。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "imagegen-frontend-web",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/imagegen-frontend-web/GUIDE.md",
+    "source_sha256": "765578a704749ba1cdb10d995681775e8aed31f44c30bcee37979026416c12a3",
+    "candidate_sha256": "7b168efcf863141474d2954b24c87146c99002a3e5fb4a46cbc5ddc9f8b39dec",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：只交付网页设计参考图；每个 section 独立横图、同一调色板，不因本包含代码模式而自动实现。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "minimalist-skill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/minimalist-skill/GUIDE.md",
+    "source_sha256": "734cd8b14bb5656c6975a6cf9dc84131be97e34d82ddd56168402da61bafd109",
+    "candidate_sha256": "da8b9d0c52eb890ac029cc3c21a8398936b168598399e16a05d6564b010d2736",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：仅在选择温暖、平面、克制极简风格时启用；不叠加玻璃、强动效或强制图片。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "redesign-skill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/redesign-skill/GUIDE.md",
+    "source_sha256": "220c4e3abdb8f4e0dfe456572a3d63c89dddd33a40567b9cc0486ea0786bf51c",
+    "candidate_sha256": "42e8cb78b6d2ec735e3de4973151aeb56ad44931c1260dc1b06eba323295110e",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：已有站点或应用的审计与改造；现有品牌、真实数据、技术栈和功能优先。视觉建议是诊断选项，不自动扩写功能。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "soft-skill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/soft-skill/GUIDE.md",
+    "source_sha256": "266fb6d28b2b6cf561c920c8da22fdce26fdad931196d3060be663aa68e7cc35",
+    "candidate_sha256": "cdd4745379e2d3b7e99d1143d0d7dee5292149120055763c3233269af8f462e4",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：仅在选择玻璃纵深或编辑奢华方向时启用；double-bezel、图片、动效按所选场景使用。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "stitch-skill",
+    "source_relative": "DESIGN.md",
+    "target_relative": "modules/stitch-skill/DESIGN.md",
+    "source_sha256": "d6b083d44b02fb3d5f3790197c0d51aa520838f6a39516dbe1a4841150a361e4",
+    "candidate_sha256": "d6b083d44b02fb3d5f3790197c0d51aa520838f6a39516dbe1a4841150a361e4",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "byte exact support file",
+    "bridge_utf8": ""
+  },
+  {
+    "module": "stitch-skill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/stitch-skill/GUIDE.md",
+    "source_sha256": "cd69a8c776e8043935756bfd6ec8330307a271192909c07526d38af97355f0ad",
+    "candidate_sha256": "afa4bebd5d9da3275ca8b75957cb0965f201de63895b0729fd6002c687682938",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：交付 Google Stitch 可理解的 DESIGN.md；同目录 DESIGN.md 是可选模板，生成文档与远程 Stitch 执行分开取证。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "taste-skill",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/taste-skill/GUIDE.md",
+    "source_sha256": "9ef8b780eb66b246b5721bebaaa9db80e0140f93bb3f84fd0b8ed27f97dee71c",
+    "candidate_sha256": "48f071e39c01e345bda294bcccaa2ccc2474c03638cac9aeff41c67aa06d467d",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：默认 taste v2 experimental 兼容线，服务营销页、作品集、编辑页和相应重设计；不自动升级到上游新架构。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  },
+  {
+    "module": "taste-skill-v1",
+    "source_relative": "SKILL.md",
+    "target_relative": "modules/taste-skill-v1/GUIDE.md",
+    "source_sha256": "033d45af1ed23832730642f95f40ab49db7fb5222848489a6c5656144bfc6dae",
+    "candidate_sha256": "6b500c6ebe243877a6270e83226cbdd63d640324d177638f23dfaff3949aea44",
+    "original_recoverable_byte_exact": true,
+    "adaptation": "inserted scoped package routing after original metadata; original body unchanged",
+    "bridge_utf8": "\n> 绘枢模块：仅用户或项目明确依赖 v1 时使用本模块的完整旧行为；不同时读取或混入 v2。 先遵循[单入口](../../SKILL.md)和[兼容与工具规则](../../references/compatibility.md)。下列保留的旧 frontmatter 仅作来源元数据；旧名字按包内模式文字口令解释，不注册独立技能。\n"
+  }
+]

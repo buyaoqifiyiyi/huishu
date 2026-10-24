@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-24",
+  "version": "1.5.0",
+  "baseline_version": "1.4.0",
+  "kind": "selective_method_adaptation",
+  "new_entries": 0,
+  "upstream": {
+    "repository": "https://github.com/msitarzewski/agency-agents",
+    "commit": "4e3ac3ca6604c75113f52c695dbddcc7af928b46",
+    "files": [
+      {
+        "path": "design/design-persona-walkthrough.md",
+        "sha256": "8def8c73df7f79a61704e7353b85b915afa31c4a9fa1100fbb9220c50d6a1c55",
+        "adopted_lines": [
+          "50-53",
+          "71-90",
+          "138-151",
+          "161-188"
+        ],
+        "adopted_method": "Arrival intent and its factual basis, page-specific question/evidence/friction/next-action alignment; simulation remains a hypothesis."
+      }
+    ],
+    "license": {
+      "source": "LICENSE",
+      "target": "licenses/agency-agents-MIT.txt",
+      "sha256": "45c861c1178a99178033b61302af7610e870082e874981b57519c2a1369299c0",
+      "copied_verbatim": true
+    }
+  },
+  "targets": [
+    {
+      "path": "modules/impeccable/references/review.md",
+      "section": "咨询与转化路径：按需走查",
+      "change": "Short optional method following audience perspective; preserve existing audit and WCAG criteria."
+    },
+    {
+      "path": "modules/impeccable/GUIDE.md",
+      "section": "按问题选流程",
+      "change": "Conditional consultation/conversion audit route and source attribution."
+    },
+    {
+      "path": "SKILL.md",
+      "section": "description / metadata.version / routing table",
+      "change": "Discoverable consultation/conversion audit route; version 1.5.0."
+    },
+    {
+      "path": "CREDITS.md",
+      "section": "1.5（2026-10-24）选择性方法补充",
+      "change": "Agency Agents attribution and MIT notice link."
+    },
+    {
+      "path": "references/maintenance.md",
+      "section": "1.5 selective integration",
+      "change": "Fixed source and preservation/exclusion boundaries."
+    }
+  ],
+  "triggers": [
+    "Marketing/service-page consultation or conversion-path audit",
+    "Many visits but few inquiries",
+    "Customer trust concerns"
+  ],
+  "non_triggers": [
+    "Backend density or typography/color-only adjustment",
+    "Implementation from precise approved reference",
+    "Gallery without a consultation goal"
+  ],
+  "excluded_rules": [
+    "Attachment-style or nationality-based psychological inference",
+    "Fixed iPhone or viewport and scroll distances",
+    "Mandatory five-second test or two voices per fold",
+    "CTA at every fold",
+    "Fixed result count or complete invented persona",
+    "Simulation presented as real user research/testing",
+    "Unsupported conversion uplift metrics",
+    "UX research plan template",
+    "Independent PASS/HOLD gate or new authorization"
+  ],
+  "preserved": [
+    "1.4 open art-direction and material/space/motion exploration",
+    "Real browser normal-motion process verification and static/reduced-motion distinction",
+    "Brand/DS and precise-reference short paths",
+    "Existing WCAG criteria and implementation checks",
+    "All preset engineering code/data/scripts and historical source/license records"
+  ],
+  "boundary": "Selective text-method adaptation only; no upstream runtime/installer, independent entry or automation change; business effectiveness and host automatic loading require separate evidence."
+}
