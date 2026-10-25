@@ -24,3 +24,5 @@
 ## 1.5（2026-10-24）选择性方法补充
 
 - **Agency Agents**：[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents/tree/4e3ac3ca6604c75113f52c695dbddcc7af928b46)，Copyright (c) 2025 AgentLand Contributors，适用完整 [MIT](licenses/agency-agents-MIT.txt)。仅从 `design/design-persona-walkthrough.md` 选取到达来源、意图、相关段落疑问、证据及行动阻碍的方法，中文改编到 `modules/impeccable/references/review.md` 的咨询与转化路径短节，并接入既有审计路由。没有导入整个角色、心理类型/国籍归因、固定设备/每屏 CTA/双声部/结果配额、用户研究模板、转化指标承诺或独立门禁。固定源哈希、采用段与排除规则见[整合记录](references/integration-20261024-agency.json)。原 Impeccable 归属、1.4 开放方向、品牌/DS 短路径、预设代码与真实浏览器过程验收继续保留。
+
+2026-10-25从 Leonxlnx/Taste 固定提交 `12af471f627f866411b4bd785b19646d3672784c` 的 `skills/taste-skill/SKILL.md` 选择性改编输入约束保留/关联与生产构建验收两项方法到 `modules/impeccable/references/refinement.md`；该补充适用既有 [Leonxlnx MIT](licenses/Leonxlnx-MIT.txt)，其余Impeccable正文仍保留Apache-2.0归属。不导入新运行时或上游强制风格；源哈希、排除项和验证边界见 [upstreams.json](references/upstreams.json)。

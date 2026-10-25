@@ -846,6 +846,25 @@
         "distill content protection already implemented; no duplicate rule",
         "upstream bans do not override user or project requirements"
       ]
+    },
+    {
+      "date": "2026-10-25",
+      "repository": "https://github.com/Leonxlnx/taste-skill",
+      "checked_commit": "12af471f627f866411b4bd785b19646d3672784c",
+      "source_path": "skills/taste-skill/SKILL.md",
+      "source_sha256": "3435ed963b15a1b6447746ec8844ab2cd38d8d2e8ead3451937f42df01e408c4",
+      "adopted": [
+        "Preserve applicable field constraints with aria-describedby",
+        "Check actual production build when build step changes delivered output"
+      ],
+      "target": "modules/impeccable/references/refinement.md",
+      "license": "MIT; licenses/Leonxlnx-MIT.txt",
+      "excluded": [
+        "runtime/inspector/assets fixes not installed",
+        "keyboard/accessibility names already covered",
+        "draw/style gates and numeric quotas"
+      ],
+      "validation": "Source and static compatibility checks only; business outcome unverified"
     }
   ],
   "historical_integration_1_3": {
