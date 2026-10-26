@@ -30,3 +30,5 @@
 未来更新先定位具体模块和当前修复，建立快照，再选择性合并。保持品牌资产/尺寸处理、图到代码分流、真实内容保护、减动效以及 taste StickyStack / HorizontalPan 修复；不按上游新描述覆盖本机自动触发。结构检查通过只支持结构兼容；真实图像、代码、浏览器、远程生成与自动加载另验。完整许可与归属见 [CREDITS.md](../CREDITS.md)。
 
 1.5的[Agency选择性整合记录](integration-20261024-agency.json)固定 `msitarzewski/agency-agents@4e3ac3ca6604c75113f52c695dbddcc7af928b46` 的 `design/design-persona-walkthrough.md`。维护目标仅为 `modules/impeccable/references/review.md` 的“咨询与转化路径：按需走查”短节、其 GUIDE 分流及根路由/描述；仅在营销页咨询/转化审计时触发。未来先比较记录中的采用段和当前中文适配，不整包恢复上游角色、心理归因、固定设备/双声部/每屏 CTA/结果数量或门禁，不引入 UX 研究模板和无数据收益承诺。保留 1.4 的开放方向、材质/空间/运动、真实浏览器过程验收、品牌/DS 与精确参考短路径及所有既有工程代码；既有历史来源记录不改写。完整新增 MIT 见[许可](../licenses/agency-agents-MIT.txt)，本次不改外部来源注册或自动化。
+
+1.6的[Elaya整合记录](integration-20261026-elaya.json)固定 `elayadesign/ai-design-skills@a2735a3eaf092eaaffb6dc17df25de33ef3bd048`。维护目标为 `modules/design-to-motion` 与既有营销策略短节；保留中文分流、源图/品牌、真实内容、按请求格式、静态/交互短路径及所有既有工程定制。上游只取所列方法，逐帧检查脚本与测试为本地实现；不按上游description恢复全Web触发、固定审美、三件套或假定工具。完整MIT及间接归属保留；未来在同一huishu-visual维护单元选择性追踪。

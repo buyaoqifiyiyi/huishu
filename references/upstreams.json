@@ -708,10 +708,38 @@
         "reason": "Changes are primarily opt-in/explicit-only metadata. Preserve existing automatic invocation and descriptions; no behavioral fix to merge.",
         "reconsider_when": "new substantive upstream change or user changes invocation preference"
       }
+    },
+    {
+      "skills": [
+        "design-to-motion",
+        "impeccable-marketing-strategy"
+      ],
+      "upstreams": [
+        {
+          "repository": "https://github.com/elayadesign/ai-design-skills",
+          "path": "skills",
+          "checked_commit": "a2735a3eaf092eaaffb6dc17df25de33ef3bd048",
+          "integrated_commit": "a2735a3eaf092eaaffb6dc17df25de33ef3bd048",
+          "role": "selected_methods_only"
+        }
+      ],
+      "status": "Selective 1.6.0 integration; no upstream runtime imported",
+      "authorship": "open_source_adaptation_with_local_tool",
+      "update_policy": "Compare pinned adopted sections; selectively merge in existing maintenance unit; preserve local adaptation; never reinstall independent upstream entries.",
+      "evidence": [
+        "integration-20261026-elaya.json"
+      ],
+      "preserve": [
+        "one Huishu entry",
+        "existing data/scripts/licenses and templates",
+        "brand and approved design system",
+        "existing code examples and GSAP safeguards",
+        "static, small-change and read-only routes"
+      ]
     }
   ],
   "note": "Historical groups and integration records retain their identities; current_integration records 1.3 local method extension. Never recreate independent entries or replace modules wholesale.",
-  "last_extension_date": "2026-10-24",
+  "last_extension_date": "2026-10-26",
   "current_integration": {
     "version": "1.4.0",
     "evidence": "integration-20261024-v14.json",
@@ -865,6 +893,14 @@
         "draw/style gates and numeric quotas"
       ],
       "validation": "Source and static compatibility checks only; business outcome unverified"
+    },
+    {
+      "repository": "https://github.com/elayadesign/ai-design-skills",
+      "checked_commit": "a2735a3eaf092eaaffb6dc17df25de33ef3bd048",
+      "integrated_commit": "a2735a3eaf092eaaffb6dc17df25de33ef3bd048",
+      "local_target": "modules/design-to-motion; modules/impeccable/references/review.md",
+      "scope": "Selected fidelity/story/export checks and marketing strategy only",
+      "update_policy": "Compare pinned adopted sections; selectively merge in existing maintenance unit; preserve local adaptation; never reinstall independent upstream entries."
     }
   ],
   "historical_integration_1_3": {

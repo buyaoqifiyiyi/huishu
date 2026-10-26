@@ -26,3 +26,9 @@
 - **Agency Agents**：[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents/tree/4e3ac3ca6604c75113f52c695dbddcc7af928b46)，Copyright (c) 2025 AgentLand Contributors，适用完整 [MIT](licenses/agency-agents-MIT.txt)。仅从 `design/design-persona-walkthrough.md` 选取到达来源、意图、相关段落疑问、证据及行动阻碍的方法，中文改编到 `modules/impeccable/references/review.md` 的咨询与转化路径短节，并接入既有审计路由。没有导入整个角色、心理类型/国籍归因、固定设备/每屏 CTA/双声部/结果配额、用户研究模板、转化指标承诺或独立门禁。固定源哈希、采用段与排除规则见[整合记录](references/integration-20261024-agency.json)。原 Impeccable 归属、1.4 开放方向、品牌/DS 短路径、预设代码与真实浏览器过程验收继续保留。
 
 2026-10-25从 Leonxlnx/Taste 固定提交 `12af471f627f866411b4bd785b19646d3672784c` 的 `skills/taste-skill/SKILL.md` 选择性改编输入约束保留/关联与生产构建验收两项方法到 `modules/impeccable/references/refinement.md`；该补充适用既有 [Leonxlnx MIT](licenses/Leonxlnx-MIT.txt)，其余Impeccable正文仍保留Apache-2.0归属。不导入新运行时或上游强制风格；源哈希、排除项和验证边界见 [upstreams.json](references/upstreams.json)。
+
+## 1.6（2026-10-26）设计稿演示与策略补充
+
+- **Elaya / AI Design Skills**：[固定来源](https://github.com/elayadesign/ai-design-skills/tree/a2735a3eaf092eaaffb6dc17df25de33ef3bd048)，Copyright (c) 2026 Elaya，完整 [MIT](licenses/Elaya-ai-design-skills-MIT.txt)。选择性中文改编 `design-to-motion` 的分层还原、背景保留、功能叙事、确定性采集与循环检查到 `modules/design-to-motion`，并从 `landing-page-design` 的策略部分补充到达信息一致、主张旁证据、行动与真实条款核对。改写范围、源哈希与排除项见[整合记录](references/integration-20261026-elaya.json)。离线帧验证脚本及测试为本地新增，未导入上游安装器或自动录制运行时。
+- 上游另注明借鉴 [Taste](https://github.com/Leonxlnx/taste-skill)、[Emil Kowalski](https://github.com/emilkowalski/skills)、[Owl-Listener](https://github.com/Owl-Listener/designer-skills) 和 [Dylan Tarre](https://github.com/dylantarre/animation-principles) 的部分一般方法；保留这层来源说明。本轮没有直接导入这几个额外仓库的文件，既有Taste内容继续适用原归属与MIT。
+- 不采用固定字体/色板/大字区块、宽泛触发、强制每个视觉循环、固定时长/三种导出，或虚构客户证明和商业承诺。新脚本仅验证已有PNG序列，Pillow按实际环境提供；Figma、浏览器与FFmpeg接线和真实动态效果另验。

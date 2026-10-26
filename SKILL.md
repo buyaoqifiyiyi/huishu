@@ -1,9 +1,9 @@
 ---
 name: huishu
-description: 网页和应用UI设计的统一入口：新建或完全重构时发散方向、检索参考，考虑材质、空间与动效并实际体验审稿；现有界面精修、营销页咨询/转化路径审计、按截图实现、图像参考、品牌板及Stitch DESIGN.md。保留品牌、技术栈和现有设计系统；小修走短路径，普通后端或逻辑修复不加载视觉预设。
+description: 网页和应用UI设计的统一入口：新建或完全重构时发散方向、检索参考，考虑材质、空间与动效并实际体验审稿；现有界面精修、营销页咨询/转化路径审计、按截图实现、设计稿演示动画与按需MP4/GIF导出、图像参考、品牌板及Stitch DESIGN.md。保留品牌、技术栈和现有设计系统；小修走短路径，普通后端或逻辑修复不加载视觉预设。
 license: MIT AND Apache-2.0; source-specific terms and notices in CREDITS.md
 metadata:
-  version: "1.5.0"
+  version: "1.6.0"
 ---
 
 # 绘枢 · Huishu
@@ -23,6 +23,7 @@ metadata:
 | taste-skill / design-taste-frontend；需要经典 v2 实现参考 | [taste v2](modules/taste-skill/GUIDE.md) | v2 experimental 兼容线可选；开放方向仍先走方向形成，v2不再是新建默认风格；明确复现旧版兼容行为时按其范围执行 |
 | 项目明确依赖 taste v1；taste-skill-v1 / design-taste-frontend-v1 | [taste v1](modules/taste-skill-v1/GUIDE.md) | 保留完整 v1 正文；同一任务不混入 v2 |
 | 已有网站或应用的视觉审计、针对性改造；redesign-existing-projects | [改造](modules/redesign-skill/GUIDE.md) | 先审计，保留真实内容、功能、品牌与栈；只要求审计则只读；授权完全重构且方向开放时先接方向形成 |
+| 设计稿/截图/Figma 的演示动画、功能卡片叙事循环，或相关 MP4/GIF 导出 | [设计稿演示动画](modules/design-to-motion/GUIDE.md) | 保留源画面与背景，区分独立展示和网站区域；格式按请求；普通菜单/悬停交互、静态截图实现不触发 |
 | 根据截图或设计稿实现；image-to-code | [图到代码](modules/image-to-code-skill/GUIDE.md) | 已有参考直接检查和提取；新参考才先生成；精确 DS 或小修直接实现 |
 | 只要网页设计参考图；imagegen-frontend-web | [网页图像](modules/imagegen-frontend-web/GUIDE.md) | 每节一张独立横图，统一视觉系统；此阶段只图不代码 |
 | 只要 iOS / Android App 屏幕、流程概念；imagegen-frontend-mobile | [移动图像](modules/imagegen-frontend-mobile/GUIDE.md) | 只图不代码；按要求决定手机框与多屏展示 |

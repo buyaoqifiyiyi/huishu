@@ -1,6 +1,6 @@
 interface:
   display_name: "绘枢 · Huishu"
-  short_description: "网页与应用设计统一入口，方向检索、材质空间动效、概念审稿与实际交互验收"
+  short_description: "网页与应用设计统一入口，方向检索、材质空间动效、设计稿演示与实际交互验收"
   default_prompt: "使用 $huishu 按我的参考或需求完成视觉设计；开放方向先按内容检索和比较，主动选择所需材质、空间与运动并实际体验，不照搬上次外观或预设配额；保留批准品牌、技术约束与适用的短路径，只加载所需模块。"
 policy:
   allow_implicit_invocation: true

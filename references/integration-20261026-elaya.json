@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-26",
+  "version": "1.6.0",
+  "kind": "selective_compatible_merge",
+  "repository": "https://github.com/elayadesign/ai-design-skills",
+  "commit": "a2735a3eaf092eaaffb6dc17df25de33ef3bd048",
+  "license": "MIT",
+  "source_files": [
+    {
+      "path": "skills/design-to-motion/SKILL.md",
+      "sha256": "87f62a4fe2396190dfd096d758ee2bf2b294c68650d695f3c8334283f85a57b7",
+      "adopted": [
+        "source fidelity and layering",
+        "background preservation",
+        "showcase versus website semantics",
+        "functional story loops",
+        "deterministic frame capture",
+        "seam/empty/rest/overflow checks"
+      ]
+    },
+    {
+      "path": "skills/landing-page-design/SKILL.md",
+      "sha256": "9bb434133ef964b31d2bf18973e12e8d0ed5e346b09897adc00fafb3fcc3aabf",
+      "adopted": [
+        "message match to arrival source",
+        "proof adjacent to claim",
+        "primary action suited to landing intent",
+        "objections and verified terms"
+      ]
+    }
+  ],
+  "license_sha256": "720ed124a9c2010417a60d15ff77313b165526f447d51033af3b5daa0f47ffdd",
+  "targets": [
+    "modules/design-to-motion",
+    "modules/impeccable/references/review.md",
+    "SKILL.md",
+    "references/compatibility.md"
+  ],
+  "local_implementation": [
+    "Pillow frame verifier and negative regression tests; not upstream runtime"
+  ],
+  "not_adopted": [
+    "blanket trigger on all web UI",
+    "fixed fonts, colors, dimensions, Tailwind dependency, mandatory tagline reveal",
+    "invented evidence, testimonials or business promises",
+    "mandatory motion of every visual and fixed timings",
+    "automatic MP4 plus two GIF deliverables",
+    "assumed Figma credentials or browser/encoding tools"
+  ],
+  "indirect_credits_reported_by_upstream": [
+    "https://github.com/Leonxlnx/taste-skill",
+    "https://github.com/emilkowalski/skills",
+    "https://github.com/Owl-Listener/designer-skills",
+    "https://github.com/dylantarre/animation-principles"
+  ],
+  "indirect_note": "Upstream credits retained as provenance; no direct files imported from these additional repositories in this merge.",
+  "preserve": [
+    "one Huishu entry",
+    "existing data/scripts/licenses and templates",
+    "brand and approved design system",
+    "existing code examples and GSAP safeguards",
+    "static, small-change and read-only routes"
+  ],
+  "validation_boundary": "Static compatibility and executed offline tool tests; live Figma access, host implicit loading and real business animation effect require separate evidence.",
+  "update_policy": "Compare pinned adopted sections; selectively merge in existing maintenance unit; preserve local adaptation; never reinstall independent upstream entries."
+}
