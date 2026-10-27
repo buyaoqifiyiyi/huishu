@@ -901,6 +901,37 @@
       "local_target": "modules/design-to-motion; modules/impeccable/references/review.md",
       "scope": "Selected fidelity/story/export checks and marketing strategy only",
       "update_policy": "Compare pinned adopted sections; selectively merge in existing maintenance unit; preserve local adaptation; never reinstall independent upstream entries."
+    },
+    {
+      "date": "2026-10-27",
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "checked_commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "source_path": "src/ui-ux-pro-max/scripts/core.py",
+      "source_sha256": "dfb34cbca66a704a5bfae48c1ab5f82d2a6573b9509c5accceb3d248715a18f6",
+      "target": "modules/ui-ux-pro-max/scripts/core.py",
+      "adopted": "Require numeric version token to end before a word boundary; avoid react3d/tailwind2xl/angular2fa legacy matches",
+      "preserve": "Data and four other stdlib scripts unchanged; local GUIDE and invocation policy unchanged",
+      "validation": "3 old failures reproduced; candidate 8/8 including explicit legacy/current/migration cases"
+    },
+    {
+      "date": "2026-10-27",
+      "repository": "https://github.com/elayadesign/ai-design-skills",
+      "checked_commit": "5e578402da175cdc539c900e4b09ceecfadcb37c",
+      "source_path": "skills/design-to-motion/SKILL.md",
+      "targets": [
+        "modules/design-to-motion/GUIDE.md",
+        "modules/design-to-motion/references/capture-export.md"
+      ],
+      "adopted": [
+        "Screenshot hidden-region/scale provenance and uncovered surface comparison",
+        "Exact landed-to-rest comparison separate from independent static fidelity"
+      ],
+      "excluded": [
+        "always animate hero",
+        "fixed timings/measurements and required export trio",
+        "unverified alpha extraction heuristic"
+      ],
+      "validation": "Existing verifier unchanged; synthetic independent-reference and failed-rest cases checked"
     }
   ],
   "historical_integration_1_3": {

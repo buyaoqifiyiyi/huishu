@@ -71,3 +71,11 @@ GIF 过大时按清晰度与叙事需要调整帧率、色数和尺寸，不把�
 采集页、帧序列和临时浏览器保持任务隔离；结束后关闭本任务创建的浏览器实例与服务，保留所需交付，不关闭用户原有会话。Figma令牌、宿主配置、源业务素材不进入技能包或公开示例。
 
 来源：选择性改编自 Elaya `ai-design-skills@a2735a3` 的设计稿动画方法；[MIT许可](../../../licenses/Elaya-ai-design-skills-MIT.txt)。虚拟时钟示例与参数由本地兼容改写，接口依据 [Playwright Clock](https://playwright.dev/docs/clock) 与 [FFmpeg官方文档](https://ffmpeg.org/ffmpeg.html)核对；具体宿主/API可用性仍须在执行任务时核实。
+
+## 2026-10-27：落定帧与独立静态参考
+
+若同一元素经过过渡后与单独 `?still` 截图仅有栅格化差异，先保存入场结束、首个故事开始前的落定帧。淡出前的恢复帧应与这张同时间线落定帧精确一致；再把落定帧与独立静态设计参考比较，查看结构差异并报告实际PSNR/模糊参数，不套用通用阈值代替看图。
+
+现有检查器无需换版：manifest 可用 `"still": "landed.png"`、`"fidelity": {"reference": "static-reference.png", "min_psnr": 40, "blur": 0}`。数值仅说明字段，实际判据预先按本任务固定；源图、采集尺寸及参考身份各自保存。`rest_frame` 检查精确恢复到landed，fidelity只说明landed与独立参考的差异。不能把landed复制成独立参考后声称还原已验。接缝和空态仍对照第0帧，沿用原有语义。
+
+选择性依据：[Elaya固定源](https://github.com/elayadesign/ai-design-skills/blob/5e578402da175cdc539c900e4b09ceecfadcb37c/skills/design-to-motion/SKILL.md)。未采用强制首屏入场、固定时长/尺寸与导出三件套。

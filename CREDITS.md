@@ -32,3 +32,5 @@
 - **Elaya / AI Design Skills**：[固定来源](https://github.com/elayadesign/ai-design-skills/tree/a2735a3eaf092eaaffb6dc17df25de33ef3bd048)，Copyright (c) 2026 Elaya，完整 [MIT](licenses/Elaya-ai-design-skills-MIT.txt)。选择性中文改编 `design-to-motion` 的分层还原、背景保留、功能叙事、确定性采集与循环检查到 `modules/design-to-motion`，并从 `landing-page-design` 的策略部分补充到达信息一致、主张旁证据、行动与真实条款核对。改写范围、源哈希与排除项见[整合记录](references/integration-20261026-elaya.json)。离线帧验证脚本及测试为本地新增，未导入上游安装器或自动录制运行时。
 - 上游另注明借鉴 [Taste](https://github.com/Leonxlnx/taste-skill)、[Emil Kowalski](https://github.com/emilkowalski/skills)、[Owl-Listener](https://github.com/Owl-Listener/designer-skills) 和 [Dylan Tarre](https://github.com/dylantarre/animation-principles) 的部分一般方法；保留这层来源说明。本轮没有直接导入这几个额外仓库的文件，既有Taste内容继续适用原归属与MIT。
 - 不采用固定字体/色板/大字区块、宽泛触发、强制每个视觉循环、固定时长/三种导出，或虚构客户证明和商业承诺。新脚本仅验证已有PNG序列，Pillow按实际环境提供；Figma、浏览器与FFmpeg接线和真实动态效果另验。
+
+2026-10-27选择性维护：UI UX Pro Max固定 `28b3b8dee8c976df4fa3e94aed4e092ad43fcb03` 仅吸收版本号词尾识别修复；数据与其他脚本保持原版本。Elaya固定 `5e578402da175cdc539c900e4b09ceecfadcb37c` 补充截图遮挡区域/比例证据与同时间线落定帧检查说明；复用本地检查器，不导入上游固定风格或运行时。继续适用各来源既有MIT许可，具体片段见[来源记录](references/upstreams.json)。
