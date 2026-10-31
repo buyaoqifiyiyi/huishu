@@ -932,6 +932,19 @@
         "unverified alpha extraction heuristic"
       ],
       "validation": "Existing verifier unchanged; synthetic independent-reference and failed-rest cases checked"
+    },
+    {
+      "date": "2026-10-31",
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "checked_commit": "9a3f14f7423037ccb8feeb4fee7482291b9c820e",
+      "previous_checked_commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "source_path": "src/ui-ux-pro-max/scripts/search.py",
+      "source_sha256": "d6aeb52ed42b158cb0c1bb47c9ef931f3bb4daf413bcf2390320b13f887e69fd",
+      "target": "modules/ui-ux-pro-max/scripts/search.py",
+      "adoption": "Resolve bundled sibling modules from the actual script directory in Python isolated/embedded configurations.",
+      "preserve": "Existing query routing, input/output, user design system and data; no AutoClaw installation.",
+      "validation": "Three normal-mode baseline/candidate outputs match; isolated-mode baseline fails and candidate matches normal output for domain, stack and design-system queries. Actual AutoClaw runtime not tested.",
+      "license": "MIT; licenses/UI-UX-Pro-Max-MIT.txt"
     }
   ],
   "historical_integration_1_3": {
