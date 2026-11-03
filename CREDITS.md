@@ -34,3 +34,5 @@
 - 不采用固定字体/色板/大字区块、宽泛触发、强制每个视觉循环、固定时长/三种导出，或虚构客户证明和商业承诺。新脚本仅验证已有PNG序列，Pillow按实际环境提供；Figma、浏览器与FFmpeg接线和真实动态效果另验。
 
 2026-10-27选择性维护：UI UX Pro Max固定 `28b3b8dee8c976df4fa3e94aed4e092ad43fcb03` 仅吸收版本号词尾识别修复；数据与其他脚本保持原版本。Elaya固定 `5e578402da175cdc539c900e4b09ceecfadcb37c` 补充截图遮挡区域/比例证据与同时间线落定帧检查说明；复用本地检查器，不导入上游固定风格或运行时。继续适用各来源既有MIT许可，具体片段见[来源记录](references/upstreams.json)。
+
+2026-11-03选择性吸收 [UI UX Pro Max 固定提交](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/713eef51b04efc98d6fa565323b495f7c9c89fd4) 的RTL候选标记、筛选及Nuxt UI资料；保留本地默认输出和Python隔离兼容修复。原作者与 [MIT许可](licenses/UI-UX-Pro-Max-MIT.txt) 继续适用；源文件哈希和本地调整见[来源记录](references/upstreams.json)。

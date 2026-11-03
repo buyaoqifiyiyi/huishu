@@ -1011,6 +1011,11 @@ def validate():
         ) or ([], [])
         domain_rows[domain] = rows
 
+    for domain in ("style", "product"):
+        for row in domain_rows.get(domain, []):
+            if row.get("rtl_level") not in {"full", "partial", "caveats"}:
+                problems.append(f"[domain:{domain}] invalid rtl_level for row {row.get('No', '?')}")
+
     for stack, config in STACK_CONFIG.items():
         headers, rows = _check_file(
             f"stack:{stack}", DATA_DIR / config["file"],

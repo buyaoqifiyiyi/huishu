@@ -2,7 +2,7 @@
 
 将产品类型、配色、字体、布局模式、图表与UX问题匹配到可追溯的资料。它提供建议，不替代设计判断、真实参考或用户已经选定的风格。先遵循[绘枢入口](../../SKILL.md)与[兼容规则](../../references/compatibility.md)。
 
-来源为 Next Level Builder 的 [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7/src/ui-ux-pro-max)，MIT；本模块的数据和5个脚本完整保留上游原件，本文为本地适配。不安装上游入口、CLI、其他宿主模板或字体文件。
+来源为 Next Level Builder 的 [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7/src/ui-ux-pro-max)，MIT；本模块的数据和5个脚本以固定上游为基线，后续兼容修复与资料增量按[来源记录](../../references/upstreams.json)选择性维护，本文为本地适配。不安装上游入口、CLI、其他宿主模板或字体文件。
 
 ## 选择最小检索范围
 
@@ -26,9 +26,12 @@ python -B "<HUISHU_ROOT>/modules/ui-ux-pro-max/scripts/search.py" "font editoria
 python -B "<HUISHU_ROOT>/modules/ui-ux-pro-max/scripts/search.py" "fintech banking" --domain color --json
 python -B "<HUISHU_ROOT>/modules/ui-ux-pro-max/scripts/search.py" "focus dialog" --stack react --json
 python -B "<HUISHU_ROOT>/modules/ui-ux-pro-max/scripts/search.py" "beauty spa wellness" --design-system --json
+python -B "<HUISHU_ROOT>/modules/ui-ux-pro-max/scripts/search.py" "saas" --domain product --rtl full --json
 ```
 
-最后一条只是设计资料组合建议，`persistence` 应为 `null`，不写项目文件。无需持久化就到此为止。需要纳入项目设计文档时，先读现有 `DESIGN.md`、设计令牌或 `design-system/*/MASTER.md`，再把已核对且确实采用的选择合入现有位置，避免创建第二套规范。
+`--rtl` 仅对显式 `style` 或 `product` 领域提供上游标记筛选：`full`、`partial` 或 `caveats`，不带值时查看所有标记。不与 `--stack` 或 `--design-system` 同用；未请求时保留原输出字段。上游标记是候选资料，不保证组件、字体、混排和实际交互已经通过 RTL 验收。
+
+设计系统示例只是设计资料组合建议，`persistence` 应为 `null`，不写项目文件。无需持久化就到此为止。需要纳入项目设计文档时，先读现有 `DESIGN.md`、设计令牌或 `design-system/*/MASTER.md`，再把已核对且确实采用的选择合入现有位置，避免创建第二套规范。
 
 若项目确需上游 Master + page override 文件，才使用 `--design-system --persist --output-dir "<已授权项目根>" -p "Project Name" [--page "dashboard"]`。默认跳过既有文件；不因建议与现有系统不同就加 `--force`。只读审计不使用持久化参数；不把未核实的整份输出保存为事实。
 

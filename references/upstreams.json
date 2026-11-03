@@ -945,6 +945,42 @@
       "preserve": "Existing query routing, input/output, user design system and data; no AutoClaw installation.",
       "validation": "Three normal-mode baseline/candidate outputs match; isolated-mode baseline fails and candidate matches normal output for domain, stack and design-system queries. Actual AutoClaw runtime not tested.",
       "license": "MIT; licenses/UI-UX-Pro-Max-MIT.txt"
+    },
+    {
+      "date": "2026-11-03",
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "checked_commit": "713eef51b04efc98d6fa565323b495f7c9c89fd4",
+      "previous_checked_commit": "9a3f14f7423037ccb8feeb4fee7482291b9c820e",
+      "adopted": [
+        "RTL compatibility metadata and opt-in filter for style/product searches",
+        "Nuxt UI 4.12.0 stack guidance and matching catalog count"
+      ],
+      "targets": [
+        "modules/ui-ux-pro-max/scripts/core.py",
+        "modules/ui-ux-pro-max/scripts/search.py",
+        "modules/ui-ux-pro-max/data/products.csv",
+        "modules/ui-ux-pro-max/data/styles.csv",
+        "modules/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+        "modules/ui-ux-pro-max/data/catalog-summary.json",
+        "modules/ui-ux-pro-max/scripts/validate_data.py",
+        "modules/ui-ux-pro-max/GUIDE.md"
+      ],
+      "source_sha256": {
+        "scripts/core.py": "caf92bdcf2579c9a7d6af4f53c54ee9d3c8f05472cfab77aaec38bef120ec63e",
+        "scripts/search.py": "9fd5acc991142fd43c3afe7be0f6720911b668f3988b34e74b5cbc41d58e7947",
+        "data/products.csv": "5756125e2b0e0d2360926f175d0975c8cd846c7589e5e2ce02631ff645e66361",
+        "data/styles.csv": "a6b37e5925d20b4c4b885a8a24aead64e1fcc779c3f0be91cfbe350de5628953",
+        "data/stacks/nuxt-ui.csv": "9c0179d559abe39ad63b958b54cb29c82be1dd20706430476096ea8967bfa328",
+        "data/catalog-summary.json": "4ca9ee8697984ed678a69a3bfbb788fb7f826d564f22cae5d094df8879517217"
+      },
+      "local_adaptations": [
+        "Preserve isolated Python import fix and default JSON output schema",
+        "Validate RTL levels in existing data checker",
+        "Treat upstream RTL classifications as suggestions, not verified project compatibility"
+      ],
+      "preserve": "Existing style and product fields, local brand/DS routing, existing query modes, all other resources and license; no dependency or framework upgrade",
+      "license": "MIT; licenses/UI-UX-Pro-Max-MIT.txt",
+      "validation": "See task check report; offline retrieval/data tests only, no real RTL interface or Nuxt project tested"
     }
   ],
   "historical_integration_1_3": {
