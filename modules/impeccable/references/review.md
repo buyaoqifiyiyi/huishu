@@ -47,6 +47,8 @@
 - **文字对比度。** 普通文字至少 4.5:1，符合标准定义的大文本至少 3:1（通常至少 18pt 或 14pt 粗体，不能只因元素是标题就视为大文本）；计算值不向上四舍五入后判达标。非文本控件与例外另按适用条款判断。依据：[SC 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)。
 - **指针目标。** SC 2.5.8 的 AA 尺寸条件为至少 24×24 CSS px，不足尺寸还要检查间距、等效控件、行内、用户代理样式或必要呈现等例外。间距例外检查以各小目标边界框中心放置直径 24 CSS px 的圆，不与其他目标或其他小目标的同类圆重叠；不能只看控件之间有一点空白。44×44 可作为更易操作的设计目标，不能仅因未到 44×44 就判 AA 失败；AAA、平台规范和项目更高要求另核。依据：[SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)。
 
+页面在 `<html>` 或 `<body>` 声明 `dir="rtl"` 时，下列现象只是需要核实实际渲染的信号，渲染正确就不算缺陷：应使用逻辑属性的地方仍写 `margin`/`padding-left|right`、`text-align: left|right`、`float: left|right`、`border-left|right`；`[dir="rtl"]` 覆盖没有同时清零冲突的基准属性，导致两侧间距叠加；定位元素用 `left`/`right` 而非 `inset-inline-start|end`——但 `left:50%; transform:translateX(-50%)` 属于方向无关的居中写法，改成逻辑属性反而错位；箭头、折叠与导航图标方向不符阅读顺序，而只做 RTL 的页面可能本来就用了方向正确的资源。`lang` 不决定书写方向，浏览器只看 `dir`；RTL 文种（`ar`、`fa`、`ur`、`he` 等）缺少 `dir` 时值得提示，但不能单凭 `lang` 判缺陷。
+
 静态发现先核实上下文；源码有媒体查询不等于手机操作通过，截图有焦点样式不等于键盘路径通过。视口模拟、合成触摸和真机分别说明。
 
 ## 合成发现

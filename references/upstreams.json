@@ -739,7 +739,7 @@
     }
   ],
   "note": "Historical groups and integration records retain their identities; current_integration records 1.3 local method extension. Never recreate independent entries or replace modules wholesale.",
-  "last_extension_date": "2026-10-26",
+  "last_extension_date": "2026-11-12",
   "current_integration": {
     "version": "1.4.0",
     "evidence": "integration-20261024-v14.json",
@@ -981,6 +981,56 @@
       "preserve": "Existing style and product fields, local brand/DS routing, existing query modes, all other resources and license; no dependency or framework upgrade",
       "license": "MIT; licenses/UI-UX-Pro-Max-MIT.txt",
       "validation": "See task check report; offline retrieval/data tests only, no real RTL interface or Nuxt project tested"
+    },
+    {
+      "date": "2026-11-12",
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "checked_commit": "6ae86f61f520d6ca229d2f40e070410638c908c5",
+      "previous_checked_commit": "ccce51cba388476d4f403091ddb91636d5cd9fed",
+      "adopted": [
+        "styles.csv No 90 Apple Native Experience: platform-aware Apple routing (semantic colors, HIG navigation, 44px targets, safe areas, explicit exclusion of Liquid Glass)",
+        "ux-guidelines.csv No 120 IME Composition Enter: CJK/IME Enter-to-send guard, cancel default before isComposing as in Chrome Modern Web Guidance"
+      ],
+      "targets": [
+        "modules/ui-ux-pro-max/data/styles.csv",
+        "modules/ui-ux-pro-max/data/ux-guidelines.csv",
+        "modules/ui-ux-pro-max/data/data-provenance.json",
+        "modules/ui-ux-pro-max/data/catalog-summary.json"
+      ],
+      "source_sha256": {
+        "data/styles.csv": "a9b6cadbd1cb9e7cb8398a3b445e0691d01e42ed5e5efa60a5d0c08c99c8100d",
+        "data/ux-guidelines.csv": "d63dc39439cf615cdccfdf7acd2301e0c3ce5e1e56a89b60617fa190f7511512",
+        "data/data-provenance.json": "e29a3aab8d8418a23f67e00a8e8f3064afe4eea1183540ec4af374ec6f4fc938",
+        "data/catalog-summary.json": "a88a160f45884e644eaf925171c438fd172bb9ae511db137d7539b350c299fab"
+      },
+      "local_adaptations": [
+        "Both rows are byte-exact upstream additions; data-provenance.json equals upstream bytes",
+        "catalog-summary.json counts recomputed for the local file set and verifiedAt set to the local verification date",
+        "No upstream templates, CLI, README translations or test fixtures imported; local GUIDE and Python compatibility fixes preserved",
+        "IME guideline cites W3C UI Events and Chrome guidance; native OS IME and Safari behavior remains unverified locally"
+      ],
+      "preserve": "Existing local default output, RTL metadata/filter, isolated Python import fix, brand/DS routing and all other data resources",
+      "license": "MIT; licenses/UI-UX-Pro-Max-MIT.txt",
+      "validation": "validate_data.py passed on isolated candidate and installed copy; style search returns apple-native-experience and ux search returns the IME row; no real IME, Apple device or browser matrix tested"
+    },
+    {
+      "date": "2026-11-12",
+      "repository": "https://github.com/pbakaus/impeccable",
+      "checked_commit": "b4bff1626c344067788c2679f048a20057c7cc5a",
+      "previous_checked_commit": "5af4319c4e7a7ee3e5e2b9fe899bcfb21c6190cb",
+      "adopted": [
+        "RTL audit guidance: physical directional properties are verification signals rather than defects; scope limited to dir=rtl; left:50% translateX(-50%) centering exception; lang does not set direction"
+      ],
+      "targets": [
+        "modules/impeccable/references/review.md"
+      ],
+      "local_adaptations": [
+        "Chinese adaptation merged into the existing accessibility/audit list instead of importing the upstream audit files",
+        "No audit.native.md, CLI, detector or live runtime imported"
+      ],
+      "preserve": "Existing AA contrast and pointer-target criteria, local review routing, all other modules and resources",
+      "license": "Apache-2.0; licenses/Impeccable-Apache-2.0.txt and licenses/Impeccable-NOTICE.md",
+      "validation": "Content review only; no RTL page rendered or audited in this run"
     }
   ],
   "historical_integration_1_3": {

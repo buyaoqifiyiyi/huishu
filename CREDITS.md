@@ -36,3 +36,8 @@
 2026-10-27选择性维护：UI UX Pro Max固定 `28b3b8dee8c976df4fa3e94aed4e092ad43fcb03` 仅吸收版本号词尾识别修复；数据与其他脚本保持原版本。Elaya固定 `5e578402da175cdc539c900e4b09ceecfadcb37c` 补充截图遮挡区域/比例证据与同时间线落定帧检查说明；复用本地检查器，不导入上游固定风格或运行时。继续适用各来源既有MIT许可，具体片段见[来源记录](references/upstreams.json)。
 
 2026-11-03选择性吸收 [UI UX Pro Max 固定提交](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/713eef51b04efc98d6fa565323b495f7c9c89fd4) 的RTL候选标记、筛选及Nuxt UI资料；保留本地默认输出和Python隔离兼容修复。原作者与 [MIT许可](licenses/UI-UX-Pro-Max-MIT.txt) 继续适用；源文件哈希和本地调整见[来源记录](references/upstreams.json)。
+
+## 1.7（2026-11-12）原生平台风格与RTL审计判据
+
+- **UI UX Pro Max**：[固定提交`6ae86f61f520d6ca229d2f40e070410638c908c5`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/6ae86f61f520d6ca229d2f40e070410638c908c5)。`styles.csv` 新增第90行 Apple Native Experience（系统语义色、系统字体层级、安全区、44px 目标，并明确不以 Liquid Glass 为定义性处理）；`ux-guidelines.csv` 新增第120行 IME 组合输入 Enter 指引（先取消默认动作再判断 `isComposing`，依据 Chrome Modern Web Guidance 与 W3C UI Events，原生输入法行为仍需人工实测）。同步新增对应 `data-provenance.json` 记录，`catalog-summary.json` 计数按本地实际文件集重算。未采用其模板、CLI、README 翻译与测试夹具，本地默认输出、RTL 标记与 Python 兼容修复不变。
+- **Impeccable**：[固定提交`b4bff1626c344067788c2679f048a20057c7cc5a`](https://github.com/pbakaus/impeccable/tree/b4bff1626c344067788c2679f048a20057c7cc5a) 的 RTL 审计判据中文改编进 `modules/impeccable/references/review.md`：只在声明 `dir="rtl"` 的页面把物理方向属性当作待核实信号，保留 `left:50%; transform:translateX(-50%)` 居中例外与 `lang` 不决定方向的说明。其 `audit.native.md`、CLI、detector 与 live 运行时未导入。
