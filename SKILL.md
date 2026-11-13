@@ -3,7 +3,7 @@ name: huishu
 description: 网页和应用UI设计的统一入口：新建或完全重构时发散方向、检索参考，考虑材质、空间与动效并实际体验审稿；现有界面精修、营销页咨询/转化路径审计、按截图实现、设计稿演示动画与按需MP4/GIF导出、图像参考、品牌板及Stitch DESIGN.md。保留品牌、技术栈和现有设计系统；小修走短路径，普通后端或逻辑修复不加载视觉预设。
 license: MIT AND Apache-2.0; source-specific terms and notices in CREDITS.md
 metadata:
-  version: "1.7.0"
+  version: "1.8.0"
 ---
 
 # 绘枢 · Huishu
@@ -14,6 +14,7 @@ metadata:
 
 | 当前产物或情境 | 读取模块 | 分流依据 |
 |---|---|---|
+| Web 弹层、布局、表单/IME、前端性能或 HTML 安全的平台能力选型/降级 | [现代 Web 实现](modules/modern-web-guidance/GUIDE.md) | 按需读匹配指南及降级；保留现有DS/组件和浏览器范围，纯视觉小修及既有动画仅补减动效不强制加载 |
 | 界面不好看、模板感、审美评审；Impeccable / critique / polish | [设计批评与精修](modules/impeccable/GUIDE.md) | critique/audit只读；明确要求改造才修改；按排版、布局、色彩等具体问题精修 |
 | 访问多但咨询少、客户不信任；营销页/服务详情的咨询或转化路径审计 | [设计批评与精修](modules/impeccable/GUIDE.md) → [到达意图走查](modules/impeccable/references/review.md#咨询与转化路径按需走查) | 对应到达意图、疑问、可见证据、阻碍和下一步；只读审计不修改，不把推演当用户研究；字号小修、精确参考实现不触发 |
 | 配色、字体、图表、UX或技术栈资料；UI UX Pro Max | [设计资料检索](modules/ui-ux-pro-max/GUIDE.md) | 本地Python检索；建议须核对语义与平台，不覆盖用户参考或现有DS |

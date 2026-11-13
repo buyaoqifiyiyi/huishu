@@ -41,3 +41,7 @@
 
 - **UI UX Pro Max**：[固定提交`6ae86f61f520d6ca229d2f40e070410638c908c5`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/6ae86f61f520d6ca229d2f40e070410638c908c5)。`styles.csv` 新增第90行 Apple Native Experience（系统语义色、系统字体层级、安全区、44px 目标，并明确不以 Liquid Glass 为定义性处理）；`ux-guidelines.csv` 新增第120行 IME 组合输入 Enter 指引（先取消默认动作再判断 `isComposing`，依据 Chrome Modern Web Guidance 与 W3C UI Events，原生输入法行为仍需人工实测）。同步新增对应 `data-provenance.json` 记录，`catalog-summary.json` 计数按本地实际文件集重算。未采用其模板、CLI、README 翻译与测试夹具，本地默认输出、RTL 标记与 Python 兼容修复不变。
 - **Impeccable**：[固定提交`b4bff1626c344067788c2679f048a20057c7cc5a`](https://github.com/pbakaus/impeccable/tree/b4bff1626c344067788c2679f048a20057c7cc5a) 的 RTL 审计判据中文改编进 `modules/impeccable/references/review.md`：只在声明 `dir="rtl"` 的页面把物理方向属性当作待核实信号，保留 `left:50%; transform:translateX(-50%)` 居中例外与 `lang` 不决定方向的说明。其 `audit.native.md`、CLI、detector 与 live 运行时未导入。
+
+## 1.8（2026-11-13）现代 Web 实现参考
+
+来自 [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance/tree/4dd968349e54ca45a05dd5c818fb035c9054b022)，原作者与贡献者保留归属，适用完整 [Apache-2.0](licenses/Modern-Web-Guidance-Apache-2.0.txt)。15 份指南按固定源逐字保留；中文 GUIDE、入口分流和索引为本地改编。源路径与 SHA-256 见 [来源清单](modules/modern-web-guidance/provenance.json)。未导入上游强制全前端触发、在线 CLI、扫描器和插件接线；不宣称本地业务效果提升。

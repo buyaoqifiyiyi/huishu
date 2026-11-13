@@ -1,0 +1,101 @@
+{
+  "repository": "https://github.com/GoogleChrome/modern-web-guidance",
+  "commit": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+  "date": "2026-11-13",
+  "license": "Apache-2.0",
+  "adoption": "15 unchanged guides with locally adapted routing; not CLI or full corpus",
+  "sources": [
+    {
+      "source": "skills/modern-web-guidance/guides/ui-components/dialog.md",
+      "target": "modules/modern-web-guidance/guides/ui-components/dialog.md",
+      "sha256": "fcf8e6c2ee1690c7d46f1d89d40a7d793831091a9f8e43129abd2132536f3264",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/ui-components/navigation-drawer.md",
+      "target": "modules/modern-web-guidance/guides/ui-components/navigation-drawer.md",
+      "sha256": "d78dc6a077f811ffbf8f9550ca53d5a8ad0f9b0545ca65c0933ef12081743f8b",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/ui-behaviors/declarative-dialog-popover-control.md",
+      "target": "modules/modern-web-guidance/guides/ui-behaviors/declarative-dialog-popover-control.md",
+      "sha256": "d94d4afe51acc5507c7b25c797aadb3176dd1fb0d0d428f64b95f6d448711672",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/ui-behaviors/prevent-page-scroll-under-modal-dialog.md",
+      "target": "modules/modern-web-guidance/guides/ui-behaviors/prevent-page-scroll-under-modal-dialog.md",
+      "sha256": "6c9b4af8df97183359e250a102c3e04354d5fbb1c53ed491c78258a0ea384a9a",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/ui-behaviors/light-dismiss-a-dialog.md",
+      "target": "modules/modern-web-guidance/guides/ui-behaviors/light-dismiss-a-dialog.md",
+      "sha256": "64bffc645a0de99848244fe3bd7c7d95f25b0f521b1c8f3a8ed597c9fa7182e0",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/css/responsive-design.md",
+      "target": "modules/modern-web-guidance/guides/css/responsive-design.md",
+      "sha256": "9d1ccfafe93531a6eb01da7058fe58f3565db91b26460681af9f6d2f626e8630",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/css/css-layout.md",
+      "target": "modules/modern-web-guidance/guides/css/css-layout.md",
+      "sha256": "00a7126c5d4cd094db37e7f09b191b98736d6a2b7a7b034b7f5135fa11ad9dbd",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/css/size-aware-styling.md",
+      "target": "modules/modern-web-guidance/guides/css/size-aware-styling.md",
+      "sha256": "33ff299de1d488b437d28769cb6b425d53e3c9fc157fd15c5b47d544538fe8ea",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/css/animate-to-intrinsic-sizes.md",
+      "target": "modules/modern-web-guidance/guides/css/animate-to-intrinsic-sizes.md",
+      "sha256": "bca04c5cc75364c8ed07ef46b48e00eee0cdfce1b72d3eccdbef9ca67ea83b89",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/ui-behaviors/same-document-transitions.md",
+      "target": "modules/modern-web-guidance/guides/ui-behaviors/same-document-transitions.md",
+      "sha256": "12183988f8da4bbd0e4d4db1d7df53fc04a73f4f22f03603dfa0119000395fe2",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/forms/ime-safe-enter-submit.md",
+      "target": "modules/modern-web-guidance/guides/forms/ime-safe-enter-submit.md",
+      "sha256": "3bd5d471b475d338f7a699b66bf0c6bf5ee04ed91e21910e5326f0e34114952e",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/forms/validate-input-after-interaction.md",
+      "target": "modules/modern-web-guidance/guides/forms/validate-input-after-interaction.md",
+      "sha256": "9026902842f38fcc580b983f326dc67d3c9ff3de2bcd1c49a76e3ca207258218",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/performance/performance.md",
+      "target": "modules/modern-web-guidance/guides/performance/performance.md",
+      "sha256": "5166b1e59f78660c8ce89ca6fb71bf2a68c0267a79e7bd22202e5da926b2d752",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/accessibility/accessibility.md",
+      "target": "modules/modern-web-guidance/guides/accessibility/accessibility.md",
+      "sha256": "b2de22c95df8e6c96de6400125f2e1853b494cd06503aedbd229ddd3e2f85d26",
+      "modification": "none"
+    },
+    {
+      "source": "skills/modern-web-guidance/guides/security/sanitize-untrusted-html.md",
+      "target": "modules/modern-web-guidance/guides/security/sanitize-untrusted-html.md",
+      "sha256": "3e65d67e62c2a838b48bfb9655429005564e04bb46d154e04b46ff50f1990f92",
+      "modification": "none"
+    }
+  ],
+  "upstream_notice": "No root NOTICE file in checked commit",
+  "validation_boundary": "static integrity and routing only; browser and business benefit unverified"
+}

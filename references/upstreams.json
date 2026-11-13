@@ -736,6 +736,26 @@
         "existing code examples and GSAP safeguards",
         "static, small-change and read-only routes"
       ]
+    },
+    {
+      "skills": [
+        "modern-web-guidance"
+      ],
+      "maintenance_unit": "huishu-visual",
+      "upstreams": [
+        {
+          "repository": "https://github.com/GoogleChrome/modern-web-guidance",
+          "checked_commit": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+          "adopted_commit": "4dd968349e54ca45a05dd5c818fb035c9054b022"
+        }
+      ],
+      "canonical_targets": [
+        "modules/modern-web-guidance/GUIDE.md",
+        "modules/modern-web-guidance/guides",
+        "modules/modern-web-guidance/provenance.json"
+      ],
+      "update_policy": "selective_merge_preserve_local_routing_no_cli",
+      "license": "Apache-2.0"
     }
   ],
   "note": "Historical groups and integration records retain their identities; current_integration records 1.3 local method extension. Never recreate independent entries or replace modules wholesale.",

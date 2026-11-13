@@ -4,6 +4,7 @@
 
 | 模块 | 兼容线 / 已核实上游 | 保留重点 |
 |---|---|---|
+| modern-web-guidance | GoogleChrome/modern-web-guidance；固定源见模块 provenance.json | 选定指南及完整降级，中文按需路由；无 CLI 或独立入口 |
 | art-direction / impeccable | pbakaus/impeccable，skill/SKILL.src.md 与选定 skill/reference | 1.2补入new-work/shape与概念审稿；1.3本地补入材质/空间/运动及真实时序验收；中文改编的方向形成、批评、排版/空间/色彩与精修；纯文本工作流，不导入二进制、hooks、官方检测器或live会话 |
 | ui-ux-pro-max | nextlevelbuilder/ui-ux-pro-max-skill，src/ui-ux-pro-max/data 与 scripts | 完整检索数据及5个标准库脚本，GUIDE单独适配；不导入平台模板/入口/安装器；数据建议不能盖过现有DS |
 | taste-skill | Leonxlnx/taste-skill-classics，skills/taste-skill-v2-experimental | v2 experimental 可选兼容/实现参考；1.2弱化默认风格锁，工程定制与代码样例保留；上游新 taste 架构只参考，不自动替换 |
@@ -32,3 +33,7 @@
 1.5的[Agency选择性整合记录](integration-20261024-agency.json)固定 `msitarzewski/agency-agents@4e3ac3ca6604c75113f52c695dbddcc7af928b46` 的 `design/design-persona-walkthrough.md`。维护目标仅为 `modules/impeccable/references/review.md` 的“咨询与转化路径：按需走查”短节、其 GUIDE 分流及根路由/描述；仅在营销页咨询/转化审计时触发。未来先比较记录中的采用段和当前中文适配，不整包恢复上游角色、心理归因、固定设备/双声部/每屏 CTA/结果数量或门禁，不引入 UX 研究模板和无数据收益承诺。保留 1.4 的开放方向、材质/空间/运动、真实浏览器过程验收、品牌/DS 与精确参考短路径及所有既有工程代码；既有历史来源记录不改写。完整新增 MIT 见[许可](../licenses/agency-agents-MIT.txt)，本次不改外部来源注册或自动化。
 
 1.6的[Elaya整合记录](integration-20261026-elaya.json)固定 `elayadesign/ai-design-skills@a2735a3eaf092eaaffb6dc17df25de33ef3bd048`。维护目标为 `modules/design-to-motion` 与既有营销策略短节；保留中文分流、源图/品牌、真实内容、按请求格式、静态/交互短路径及所有既有工程定制。上游只取所列方法，逐帧检查脚本与测试为本地实现；不按上游description恢复全Web触发、固定审美、三件套或假定工具。完整MIT及间接归属保留；未来在同一huishu-visual维护单元选择性追踪。
+
+## 1.8 现代 Web 维护单元
+
+GoogleChrome/modern-web-guidance 的选定指南维护在 `modules/modern-web-guidance`；以该目录 provenance.json 的固定提交、源路径及哈希逐项比较，保留中文 GUIDE 的按需/离线/浏览器兼容及既有DS边界。上游文件更新保留完整 fallback 与许可；新增主题按实际需求评估，不恢复独立 SKILL、强制 npx 或全量加载。此模块属于 huishu-visual；Yanlu只维护可选互调，不复制第二份指南。

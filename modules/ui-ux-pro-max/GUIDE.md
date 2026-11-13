@@ -56,3 +56,5 @@ python -B "<HUISHU_ROOT>/modules/ui-ux-pro-max/scripts/search.py" "saas" --domai
 - 上游风格、转化、动效和图表推荐都按界面用途选用；“推荐”不证明对比度达标、无障碍合规、依赖可用或视觉质量已经提升。
 
 数据维护可运行[数据完整性检查](scripts/validate_data.py)，它证明字段、身份与关联一致，不证明审美。实际交付仍须按[设计批评与精修](../impeccable/GUIDE.md)查看真实界面与用户任务。
+
+IME 数据行保留为检索摘要；具体输入法与 Safari 降级实现按需读取[现代 Web 参考](../modern-web-guidance/GUIDE.md)中的 `ime-safe-enter-submit`。更新时对照同一来源，避免摘要和实现指南漂移；不改既有修饰键及重复提交策略。
