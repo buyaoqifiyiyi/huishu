@@ -33,6 +33,8 @@ python -B "<HUISHU_ROOT>/modules/ui-ux-pro-max/scripts/search.py" "saas" --domai
 
 设计系统示例只是设计资料组合建议，`persistence` 应为 `null`，不写项目文件。无需持久化就到此为止。需要纳入项目设计文档时，先读现有 `DESIGN.md`、设计令牌或 `design-system/*/MASTER.md`，再把已核对且确实采用的选择合入现有位置，避免创建第二套规范。
 
+需要机器可读令牌时加 `--tokens dtcg`（W3C DTCG JSON）或 `--tokens css`（`:root` 变量），仅与 `--design-system` 同用；`--preview` 写自包含 `preview.html` 供快速目视。令牌与预览只是候选资料，合入项目前仍按上一段核对现有设计系统；不因此改变“数据建议不盖过现有 DS”的边界。
+
 若项目确需上游 Master + page override 文件，才使用 `--design-system --persist --output-dir "<已授权项目根>" -p "Project Name" [--page "dashboard"]`。默认跳过既有文件；不因建议与现有系统不同就加 `--force`。只读审计不使用持久化参数；不把未核实的整份输出保存为事实。
 
 ## 领域与平台

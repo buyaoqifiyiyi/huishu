@@ -29,6 +29,8 @@
 
 同辈距离可用 `gap` 表意；复用现有布局原语。只有实际渲染看着偏时才做光学对齐。验收用眯眼测试+真内容：主次、组关系、密度仍成立，窄/中/宽与放大路径能操作，无意外整页溢出。
 
+需要精细光学对齐时（上游 typeset 2026-11 增补，Apache-2.0）：`text-box: trim-both cap alphabetic` 加在标签元素上，不加在 flex 容器上；`inline-flex` 按钮的文字是匿名 flex item，对按钮 trim 不会生效，应把标签包进 `display: block` 的 `<span>` 再 trim。为 trim 标签的回退字体设置 `size-adjust`，取值为 web 字体与回退字体 cap height 之比（每 em）；`ascent-override`、`descent-override`、`line-gap-override` 只改变 trim 移除的部分。以渲染结果判断：居中的大写不等于居中的词，混排标签的主体在 x-height，其中心低于 cap 中心，trim 后仍可能看着偏低；在该控件实际出货的每个字号检查真实标签。
+
 ## 色彩：角色和注意力优先
 
 先看品牌承诺、语义色、主题、实际状态和背景，再选择用色策略：情绪温度、主色关系、对比范围、用色强度。没有通用“品牌色只能占10%”或“必须染色灰”的配额。

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17",
+  "version": "1.9.0",
+  "entry": "huishu",
+  "new_independent_entries": 0,
+  "ui_ux_pro_max": {
+    "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "previous_commit": "6ae86f61f520d6ca229d2f40e070410638c908c5",
+    "commit": "d643997c82e94742dd3bee43210b0198e8bbba3d",
+    "license": "MIT",
+    "kind": "selective script-layer merge, data unchanged",
+    "adopted": [
+      "design_system.py: DTCG/CSS token export plus typography tailwind_config/category passthrough and color_mode (byte-exact upstream HEAD)",
+      "preview.py: self-contained preview.html writer (new, byte-exact upstream HEAD)",
+      "search.py: --tokens/--preview CLI plumbing with stderr separation, local sibling-module comment preserved"
+    ],
+    "rejected": [
+      "test_ime_composition.py and relevance-thresholds fixtures (tests/ not installed locally)",
+      "templates/base/skill-content.md (templates not installed locally)",
+      "gallery and cli platform surfaces"
+    ],
+    "files": [
+      {
+        "path": "scripts/design_system.py",
+        "sha256_after": "043ed3f404214869ffbf4c8d529afc6c6ceddb211fa4726d67d7a03edf7265db"
+      },
+      {
+        "path": "scripts/preview.py",
+        "sha256_after": "2900f6b4307439c20083aa6a630332f9e8ac6fd95901bd703f75fa9a75b84fbb"
+      },
+      {
+        "path": "scripts/search.py",
+        "sha256_after": "6149b6b9f6ae8b2ae05ff89e83b71eb5eb20f0161c7d0b0d0eda6eacc62408f9"
+      }
+    ]
+  }
+}
