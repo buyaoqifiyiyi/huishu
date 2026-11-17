@@ -6,7 +6,7 @@
   "ui_ux_pro_max": {
     "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "previous_commit": "6ae86f61f520d6ca229d2f40e070410638c908c5",
-    "commit": "d643997c82e94742dd3bee43210b0198e8bbba3d",
+    "commit": "e59ff376a41f7ca47b7541ad5c116495cbade3ee",
     "license": "MIT",
     "kind": "selective script-layer merge, data unchanged",
     "adopted": [

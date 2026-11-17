@@ -26,6 +26,6 @@
 
 其余选定来源中，new-work、shape、critique、typeset、layout、colorize、operate、polish、quieter、bolder及许可文本内容未变；固定源文本的历史哈希是 CRLF 检出值，原始 LF 文件单独记录，避免把行尾差异当功能更新。distill 的必要内容保护已被本地规则覆盖；不采用运行时加载仪式或覆盖用户需求的强制风格禁令。此轮没有引入 Impeccable CLI、hooks、live 会话或扫描器。
 
-## 2026-11-17 上游选择性吸收（acb4cfe1 → 2b86d9c0）
+## 2026-11-17 上游选择性吸收（acb4cfe1 → d41d9860）
 
-从 `2b86d9c07b97d4bed7de23583e1bd1e58dd2baae` 的 skill/reference/typeset.md 选取“Optical alignment”三条（trim 目标元素、回退 size-adjust、以渲染判断居中），中文改编补入 [type-layout-color.md](type-layout-color.md) 版式节；从 adapt.md/animate.md 选取悬停位移原则（被悬停元素静止、子元素承载运动、预览等指针停稳），补入 [材质空间运动](../../art-direction/references/material-space-motion.md)。两者均为纯文本方法，不引入 motion-capture 命令、motion-reviewer 代理、critique-rubric 拆分、comp 构建管线或任何运行时；critique 的结构拆分（认知负荷/启发式/人物画像移入 critique-rubric.md）本地未采用该结构，本地 review.md 的对应判据保持不变。许可与原 NOTICE 继续适用。
+从 `d41d9860b0094dcb68030657da63461212835aaa` 的 skill/reference/typeset.md 选取“Optical alignment”三条（trim 目标元素、回退 size-adjust、以渲染判断居中），中文改编补入 [type-layout-color.md](type-layout-color.md) 版式节；从 adapt.md/animate.md 选取悬停位移原则（被悬停元素静止、子元素承载运动、预览等指针停稳），补入 [材质空间运动](../../art-direction/references/material-space-motion.md)。两者均为纯文本方法，不引入 motion-capture 命令、motion-reviewer 代理、critique-rubric 拆分、comp 构建管线或任何运行时；critique 的结构拆分（认知负荷/启发式/人物画像移入 critique-rubric.md）本地未采用该结构，本地 review.md 的对应判据保持不变。许可与原 NOTICE 继续适用。
