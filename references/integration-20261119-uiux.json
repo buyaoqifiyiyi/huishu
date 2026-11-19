@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-19",
+  "version": "1.10.0",
+  "entry": "huishu",
+  "new_independent_entries": 0,
+  "ui_ux_pro_max": {
+    "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "previous_commit": "e59ff376a41f7ca47b7541ad5c116495cbade3ee",
+    "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+    "license": "MIT",
+    "kind": "data-layer selective merge",
+    "adopted": [
+      "colors/products/ui-reasoning/ux-guidelines/charts CSVs byte-exact from HEAD (Maps product types, 10 map UX guidelines, choropleth normalization)",
+      "data-provenance.json byte-exact",
+      "catalog-summary.json counts aligned (products/palettes/reasoningProfiles 194, uxGuidelines 130) with local verifiedAt 2026-11-19",
+      "validate_data.py merged upstream patch (map official hosts, 194-row contract) preserving local RTL check"
+    ],
+    "rejected": [
+      "scripts/tests/* and templates/platforms/* (not installed locally)",
+      "quick-reference and platform templates"
+    ],
+    "files": [
+      {
+        "path": "data/colors.csv",
+        "sha256_after": "f14cc97bc4c3527e6181b2ec3231704271249ca4ad56dcaa9bf562ab795a3dd7"
+      },
+      {
+        "path": "data/products.csv",
+        "sha256_after": "2b78d254f0fe0cc137ee811df280215c257868df24d2041264624d01f747f511"
+      },
+      {
+        "path": "data/ui-reasoning.csv",
+        "sha256_after": "60b8b1a0fc426d65c8d536fbd348e89e6c6484ab9cb54ddbcfe85b4339d960f9"
+      },
+      {
+        "path": "data/ux-guidelines.csv",
+        "sha256_after": "9c473c1104e93f3d985f2d46d8854735e1a1deb8e0ac5ecd39c7e3b04e5d7528"
+      },
+      {
+        "path": "data/charts.csv",
+        "sha256_after": "80045f5793cbeca3b1373831851c992444a38967960cbba900c1472f1420e978"
+      },
+      {
+        "path": "data/data-provenance.json",
+        "sha256_after": "d766d1afb9fcdce89dbba580161b3dad260702a18871b12ab7f762eeaf8883e8"
+      },
+      {
+        "path": "data/catalog-summary.json",
+        "sha256_after": "50940f8933009f6d8421ea623861daeb334b7fc82b02f15c19b5654b61545e16"
+      }
+    ]
+  },
+  "impeccable": {
+    "repository": "https://github.com/pbakaus/impeccable",
+    "previous_commit": "d41d9860b0094dcb68030657da63461212835aaa",
+    "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+    "adopted_text": [
+      "craft-floor side-stripe ban extension -> refinement.md",
+      "new-work print-material line technique -> art-direction GUIDE",
+      "critique read-only/delegated question-skip allowance -> review.md"
+    ],
+    "rejected": [
+      "impeccable shot/font-fetch CLI references",
+      "audit-storage metadata and Impeccable login lines",
+      "finish-reviewer changes"
+    ]
+  },
+  "darwin": {
+    "repository": "https://github.com/alchaincyf/darwin-skill",
+    "previous_commit": "e7c0e66541428852bd38c13c7305ecd9492e4013",
+    "commit": "5a8e633a20ea5bb2bf8b9c697c6da04ad85740ba",
+    "adopted_text": [
+      "parallel dispatch, one-rerun cap, stuck-judge redispatch and cost formula -> yanlu references/validate.md and upstream.md"
+    ]
+  }
+}

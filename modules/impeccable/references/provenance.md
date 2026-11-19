@@ -29,3 +29,7 @@
 ## 2026-11-17 上游选择性吸收（acb4cfe1 → d41d9860）
 
 从 `d41d9860b0094dcb68030657da63461212835aaa` 的 skill/reference/typeset.md 选取“Optical alignment”三条（trim 目标元素、回退 size-adjust、以渲染判断居中），中文改编补入 [type-layout-color.md](type-layout-color.md) 版式节；从 adapt.md/animate.md 选取悬停位移原则（被悬停元素静止、子元素承载运动、预览等指针停稳），补入 [材质空间运动](../../art-direction/references/material-space-motion.md)。两者均为纯文本方法，不引入 motion-capture 命令、motion-reviewer 代理、critique-rubric 拆分、comp 构建管线或任何运行时；critique 的结构拆分（认知负荷/启发式/人物画像移入 critique-rubric.md）本地未采用该结构，本地 review.md 的对应判据保持不变。许可与原 NOTICE 继续适用。
+
+## 2026-11-19 上游选择性吸收（d41d9860 → b49177d3）
+
+从 craft-floor.md 选取单侧条纹禁令的扩展（任何颜色/状态的单侧 border、inset 阴影或伪元素），补入 [refinement.md](refinement.md)；从 new-work.md 选取版画类插图的线描技法原则，补入 [方向形成](../../art-direction/GUIDE.md) 表达系统节；从 critique.md 选取只读/委托运行可省略结尾提问的门槛放宽，补入 [review.md](review.md)。未引入 `impeccable shot`、`font-fetch`、audit-storage 元数据、finish-reviewer 或任何命令与运行时；SKILL.src、audit、polish 的其余变化均为 CLI 仪式或存储细节，本地不适用。许可与原 NOTICE 继续适用。
