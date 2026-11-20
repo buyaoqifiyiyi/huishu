@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/GoogleChrome/modern-web-guidance",
-  "commit": "4dd968349e54ca45a05dd5c818fb035c9054b022",
-  "date": "2026-11-13",
+  "commit": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
+  "date": "2026-11-20",
   "license": "Apache-2.0",
   "adoption": "15 unchanged guides with locally adapted routing; not CLI or full corpus",
   "sources": [
@@ -20,7 +20,7 @@
     {
       "source": "skills/modern-web-guidance/guides/ui-behaviors/declarative-dialog-popover-control.md",
       "target": "modules/modern-web-guidance/guides/ui-behaviors/declarative-dialog-popover-control.md",
-      "sha256": "80292b68811216186dd30312133249079006df8c8e3f9d676f38a7a62cde9fea",
+      "sha256": "e403bfbe5e1e4509105b35256efb38c0eb422c1e0fca22c10fe573ec76aa66f2",
       "modification": "none"
     },
     {
@@ -44,7 +44,7 @@
     {
       "source": "skills/modern-web-guidance/guides/css/css-layout.md",
       "target": "modules/modern-web-guidance/guides/css/css-layout.md",
-      "sha256": "c5c8cd89b7fa3a6030b0775bbc8c120efc07aa7a603dc850c73214cc8e8468fe",
+      "sha256": "da7fa26230536bdde5a32fb1d3b529c711b5f25baeaf828e111cef4859e88f01",
       "modification": "none"
     },
     {
@@ -80,7 +80,7 @@
     {
       "source": "skills/modern-web-guidance/guides/performance/performance.md",
       "target": "modules/modern-web-guidance/guides/performance/performance.md",
-      "sha256": "7db68366e739251d715c894d747da7e44c2138146308a289a1f4d8c42ea53dae",
+      "sha256": "0dde03667a73cb67e56994b7737d33af90ffabb57b594d35a99da2fba2cca273",
       "modification": "none"
     },
     {
