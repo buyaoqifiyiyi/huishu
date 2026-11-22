@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-22",
+ "version": "1.10.2",
+ "entry": "huishu",
+ "new_independent_entries": 0,
+ "ui_ux_pro_max": {
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "previous_commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+  "commit": "f76d1653d7467fc11fb9d9d79295a421c92ab958",
+  "license": "MIT",
+  "kind": "data-layer selective merge",
+  "adopted": [
+   "ux-guidelines.csv byte-exact from HEAD (No 35 good-example sharpened; rows 131-141 form error handling, persistent/actionable errors, undo for reversible actions, modal dialog focus)",
+   "data-provenance.json byte-exact (dataset-contract form-error-handling-behavior with Baymard/Ontario/GOV.UK/NN/gov.uk/W3C/vercel-labs sources and boundary notes)",
+   "catalog-summary.json counts aligned (uxGuidelines 141) with local verifiedAt 2026-11-22",
+   "validate_data.py minimal patch: OFFICIAL_SOURCE_HOSTS += baymard.com, designsystem.ontario.ca, www.nngroup.com; local custom checks preserved"
+  ],
+  "rejected": [
+   "templates/platforms/* and stack docs changes (not installed locally)"
+  ],
+  "files": [
+   {
+    "path": "data/ux-guidelines.csv",
+    "sha256_after": "03b89ae5e237ab2f23a2e9a7ecebd5d70e42776341d0d7eb7302393fbd79c26a"
+   },
+   {
+    "path": "data/data-provenance.json",
+    "sha256_after": "4021c3b675f823857561ebaadae7b6c43f7c25bc97950af4ae7739ce4fc0ae00"
+   },
+   {
+    "path": "data/catalog-summary.json",
+    "sha256_after": "670fd76066b2891fb4603792b032df57332779506a828af5f0d99895c1372cd2"
+   },
+   {
+    "path": "scripts/validate_data.py",
+    "sha256_after": "67d67c6e8695a3774f2d3c54de13e6513d156c867e82651d9ecfe73267d9bdff"
+   }
+  ],
+  "validation": [
+   "validate_data.py OK (12 domain, 22 stack, ui-reasoning)",
+   "quick_validate huishu valid",
+   "readback byte-exact vs upstream f76d165 for csv and provenance"
+  ]
+ }
+}

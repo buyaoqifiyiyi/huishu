@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-11-19",
+  "verifiedAt": "2026-11-22",
   "counts": {
     "styles": {
       "total": 89,
@@ -16,7 +16,7 @@
     "googleFonts": 1934,
     "curatedIcons": 105,
     "upstreamPhosphorIcons": 1512,
-    "uxGuidelines": 130,
+    "uxGuidelines": 141,
     "motionPresets": 17,
     "chartTypes": 25,
     "stacks": 22,

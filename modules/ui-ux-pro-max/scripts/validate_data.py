@@ -111,6 +111,10 @@ OFFICIAL_SOURCE_HOSTS = {
     "cheatsheetseries.owasp.org", "docs.mapbox.com",
     "earthobservatory.nasa.gov", "leafletjs.com", "maplibre.org",
     "osmfoundation.org", "pro.arcgis.com",
+    "baymard.com",
+    "designsystem.ontario.ca",
+    "www.nngroup.com",
+
 }
 STACK_OFFICIAL_HOSTS = {
     "react": {"react.dev"},
