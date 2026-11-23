@@ -45,3 +45,8 @@
 ## 1.8（2026-11-13）现代 Web 实现参考
 
 来自 [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance/tree/4dd968349e54ca45a05dd5c818fb035c9054b022)，原作者与贡献者保留归属，适用完整 [Apache-2.0](licenses/Modern-Web-Guidance-Apache-2.0.txt)。15 份指南按固定源逐字保留；中文 GUIDE、入口分流和索引为本地改编。源路径与 SHA-256 见 [来源清单](modules/modern-web-guidance/provenance.json)。未导入上游强制全前端触发、在线 CLI、扫描器和插件接线；不宣称本地业务效果提升。
+
+## 1.10.4（2026-11-23）组件状态与结构审稿
+
+- [Storybook 的 stories 文档](https://storybook.js.org/docs/writing-stories)（[MIT](https://github.com/storybookjs/storybook/blob/20075e60242c908616d9ce8783a0686fc0ba896d/LICENSE)）提供单独呈现组件状态的方法。绘枢以本地措辞将其融入[实现与行为验收](modules/impeccable/references/review.md#b核对实现与行为)，复用项目已有工具。
+- [Anthropic frontend-design](https://github.com/anthropics/skills/blob/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/frontend-design/SKILL.md)（[Apache-2.0](https://github.com/anthropics/skills/blob/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/frontend-design/LICENSE.txt)）提供结构标记表达内容关系的判据，绘枢将其重述于[设计审稿](modules/impeccable/references/review.md#a形成设计判断)，并接入概念审稿。两项补充均未复制上游文件、代码或运行时。

@@ -3,7 +3,7 @@ name: huishu
 description: 网页和应用UI设计的统一入口：新建或完全重构时发散方向、检索参考，考虑材质、空间与动效并实际体验审稿；现有界面精修、营销页咨询/转化路径审计、按截图实现、设计稿演示动画与按需MP4/GIF导出、图像参考、品牌板及Stitch DESIGN.md。保留品牌、技术栈和现有设计系统；小修走短路径，普通后端或逻辑修复不加载视觉预设。
 license: MIT AND Apache-2.0; source-specific terms and notices in CREDITS.md
 metadata:
-  version: "1.10.3"
+  version: "1.10.4"
 ---
 
 # 绘枢 · Huishu
