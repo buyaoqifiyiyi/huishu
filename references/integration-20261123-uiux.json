@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-23",
+ "version": "1.10.3",
+ "entry": "huishu",
+ "new_independent_entries": 0,
+ "ui_ux_pro_max": {
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "previous_commit": "f76d1653d7467fc11fb9d9d79295a421c92ab958",
+  "commit": "6ec2bb58334ca3014573c4cbd4834ee3a40afd9d",
+  "license": "MIT",
+  "kind": "script selective merge",
+  "adopted": [
+   "preview.py byte-exact from HEAD (RTL-safe HTML preview: lang/dir detection, unicode-bidi isolate on hex/ratio/badge, logical margin, RTL heading letter-spacing reset)",
+   "core.py minimal patch: Arabic/MENA synonym table + Arabic diacritics/tatweel stripping in _normalize; local RTL_DOMAINS output block preserved"
+  ],
+  "rejected": [
+   "cli/assets duplicates and scripts/tests (not installed locally)"
+  ],
+  "files": [
+   {
+    "path": "scripts/preview.py",
+    "sha256_after": "d1f9a7f29796020d122d4d02bff2e1269ab54615e15653994fec248671317669"
+   },
+   {
+    "path": "scripts/core.py",
+    "sha256_after": "97bbf688ea1e245e5d13e77748d1d6246fb529273a77d82cdf63cc0608a6a49d"
+   }
+  ],
+  "validation": [
+   "validate_data OK; quick_validate huishu valid",
+   "smoke: Arabic query normalizes to trading/dashboard/dark mode; diacritics stripped; RTL design system renders <html lang=\"ar\" dir=\"rtl\"> with isolate spans; LTR default unchanged",
+   "preview.py readback byte-exact vs upstream 6ec2bb5"
+  ]
+ }
+}
