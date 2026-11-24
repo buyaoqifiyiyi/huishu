@@ -46,6 +46,11 @@
 
 来自 [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance/tree/4dd968349e54ca45a05dd5c818fb035c9054b022)，原作者与贡献者保留归属，适用完整 [Apache-2.0](licenses/Modern-Web-Guidance-Apache-2.0.txt)。15 份指南按固定源逐字保留；中文 GUIDE、入口分流和索引为本地改编。源路径与 SHA-256 见 [来源清单](modules/modern-web-guidance/provenance.json)。未导入上游强制全前端触发、在线 CLI、扫描器和插件接线；不宣称本地业务效果提升。
 
+## 1.10.5（2026-11-24）RTL 语言推断与指南基线刷新
+
+- [UI UX Pro Max `e8b065f`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/e8b065f0f3aaf2e680fd125f000e4f5e351ed108)（MIT）：design_system.py 与 preview.py 逐字节采纳 Unicode bidi 的预览语言/方向推断（阿拉伯语、希伯来语等）与 lang 转义；core.py 增加同义词短路；search.py 增加 --lang/--direction 预览参数。本地 sys.path 注释定制保留。
+- [modern-web-guidance `2b4aa13`（v1.0.2）](https://github.com/GoogleChrome/modern-web-guidance/tree/2b4aa13a72dd47cd135b06ce5abfccd92e19b24f)（Apache-2.0）：css-layout.md 逐字节刷新（Grid lanes 支持日期补全）；其余逐字指南上游未变。来源清单提交与 SHA 已同步。
+
 ## 1.10.4（2026-11-23）组件状态与结构审稿
 
 - [Storybook 的 stories 文档](https://storybook.js.org/docs/writing-stories)（[MIT](https://github.com/storybookjs/storybook/blob/20075e60242c908616d9ce8783a0686fc0ba896d/LICENSE)）提供单独呈现组件状态的方法。绘枢以本地措辞将其融入[实现与行为验收](modules/impeccable/references/review.md#b核对实现与行为)，复用项目已有工具。

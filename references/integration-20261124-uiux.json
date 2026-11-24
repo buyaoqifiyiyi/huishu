@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-24",
+ "version": "1.10.5",
+ "entry": "huishu",
+ "new_independent_entries": 0,
+ "includes_unsynced_1_10_4": true,
+ "ui_ux_pro_max": {
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "previous_commit": "6ec2bb58334ca3014573c4cbd4834ee3a40afd9d",
+  "commit": "e8b065f0f3aaf2e680fd125f000e4f5e351ed108",
+  "license": "MIT",
+  "kind": "script selective merge",
+  "adopted": [
+   "design_system.py and preview.py byte-exact (Unicode bidi preview locale inference for ar/he/fa etc., lang escaping in html tag)",
+   "core.py minimal patch: synonym candidate short-circuit before per-rule substitution",
+   "search.py minimal patch: --lang/--direction preview CLI args; local sys.path comment customization preserved"
+  ],
+  "rejected": [
+   "scripts/tests and fixture changes (not installed locally)"
+  ]
+ },
+ "modern_web_guidance": {
+  "repository": "https://github.com/GoogleChrome/modern-web-guidance",
+  "previous_commit": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
+  "commit": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
+  "license": "Apache-2.0",
+  "kind": "verbatim guide refresh",
+  "adopted": [
+   "css-layout.md byte-exact (Grid lanes Safari support date); provenance commit and sha256 updated; other 14 verbatim guides unchanged upstream"
+  ],
+  "rejected": [
+   "plugin manifests, README and non-adopted guides (not part of local verbatim set)"
+  ]
+ },
+ "local_1_10_4_content": [
+  "review.md: structural-markup criterion and component-state acceptance (Storybook stories method, local wording)",
+  "concept-review.md: cross-link to structural-markup criterion",
+  "CREDITS.md attribution for Storybook (MIT) and Anthropic frontend-design (Apache-2.0) method references"
+ ],
+ "files": [
+  {
+   "path": "SKILL.md",
+   "sha256_after": "a914ecc76eab9eac17a6134fc1f4a386eefa8c226d2f81b09e34a9223df60c0e"
+  },
+  {
+   "path": "CREDITS.md",
+   "sha256_after": "9528cb9a971c0f8bc1fa226e94bbd0898bbf9deede14c1d9858a6332e053a5fb"
+  },
+  {
+   "path": "modules/impeccable/references/review.md",
+   "sha256_after": "96533c6a4863fbf707c7ff651aa6f1231d2ad0bb0ae40e3e655b03a203c68631"
+  },
+  {
+   "path": "modules/impeccable/references/concept-review.md",
+   "sha256_after": "ac8dbbe0d8946356cdb1ae4c556f13474a84cd58f40e15144253de2e62a5ae66"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/scripts/core.py",
+   "sha256_after": "1683b793607e49cef874f8897f08e185eb35495d9309bee1a388c1ef09dd4276"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/scripts/search.py",
+   "sha256_after": "a2e31b367d5d588bc9e039323c6c7e922b98a8262b3c6dbdde38c1f827fb31a6"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/scripts/preview.py",
+   "sha256_after": "ca34658b15afea5eeabeb19d09a6d7a11f3067ef43a6cc27deaa6f48f1b271fc"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/scripts/design_system.py",
+   "sha256_after": "df3a6a10f54fb3e1919103b1bcfe9cb332d471c4cebbe30ab70bff5d3e57e742"
+  },
+  {
+   "path": "modules/modern-web-guidance/guides/css/css-layout.md",
+   "sha256_after": "1a1ad52e86158182ddb5f79bf46f64bd419ea15a18627cda3df159d25146d5f5"
+  },
+  {
+   "path": "modules/modern-web-guidance/provenance.json",
+   "sha256_after": "c3d5c11142864b93e7fa2e215ebd4e73b853a0df04d3ce0bcea3229a10202c0f"
+  }
+ ],
+ "validation": [
+  "validate_data OK; quick_validate huishu valid",
+  "smoke: Hebrew query infers lang=he dir=rtl; fa override honored; latin stays en/ltr; synonym short-circuit keeps plain text; Arabic mapping intact; Hebrew preview renders <html lang=he dir=rtl>",
+  "readback byte-exact vs upstream e8b065 (design_system, preview) and 2b4aa13 (css-layout)"
+ ]
+}
