@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-25",
+ "version": "1.10.6",
+ "entry": "huishu",
+ "new_independent_entries": 0,
+ "ui_ux_pro_max": {
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "previous_commit": "e8b065f0f3aaf2e680fd125f000e4f5e351ed108",
+  "commit": "8db36338810d0942567b97ce439affd1619fcf31",
+  "license": "MIT",
+  "kind": "script selective merge",
+  "adopted": [
+   "core.py minimal patch: exact #RRGGBB palette lookup in color domain with exact-color/no-exact-color diagnostics and abstain on miss (islice import + lookup block)"
+  ],
+  "rejected": [
+   "scripts/tests/test_core.py and fixture threshold bump (tests not installed locally)",
+   "antigravity/copilot workspace instruction files and gallery watermark changes (not installed)"
+  ],
+  "files": [
+   {
+    "path": "modules/ui-ux-pro-max/scripts/core.py",
+    "sha256_after": "b060a8000827e0f95864a80b3e5b25f26d6695087f3e6cae3c872f6e4612f366"
+   },
+   {
+    "path": "SKILL.md",
+    "sha256_after": "3e13228d88a79df43a1f751138e0baf114e22aa873291ecee0a75af52815493b"
+   },
+   {
+    "path": "CREDITS.md",
+    "sha256_after": "2d5584ce211f61fd36c379bcef5dd2e6c850df28730d40fb9cd7264c6f790a2d"
+   }
+  ],
+  "validation": [
+   "validate_data OK",
+   "quick_validate huishu valid",
+   "smoke: #2563EB returns exact-color hits; #123456 abstains with no-exact-color; normal color query still matches"
+  ]
+ }
+}
