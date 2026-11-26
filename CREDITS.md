@@ -46,6 +46,10 @@
 
 来自 [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance/tree/4dd968349e54ca45a05dd5c818fb035c9054b022)，原作者与贡献者保留归属，适用完整 [Apache-2.0](licenses/Modern-Web-Guidance-Apache-2.0.txt)。15 份指南按固定源逐字保留；中文 GUIDE、入口分流和索引为本地改编。源路径与 SHA-256 见 [来源清单](modules/modern-web-guidance/provenance.json)。未导入上游强制全前端触发、在线 CLI、扫描器和插件接线；不宣称本地业务效果提升。
 
+## 1.10.7（2026-11-26）PySide6/Qt 栈数据
+
+- [UI UX Pro Max `b73ee96`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/b73ee96f8d4ff7bbc279c52dadcd907ffe23629c)（MIT）：stacks/pyside6-qss.csv 逐字节采纳（68 条 Qt/QSS 指南）；core.py 与 validate_data.py 注册该栈（配置、版本、查询名、官方主机 doc.qt.io/qfluentwidgets.com）；catalog 计数 23/1346。shadcn 组件路径修复与平台模板未安装不采纳。
+
 ## 1.10.6（2026-11-25）精确色值查询
 
 - [UI UX Pro Max `8db3633`](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/8db36338810d0942567b97ce439affd1619fcf31)（MIT）：core.py 增加 color 域精确 hex 调色板查询（#RRGGBB 直接命中色列，未命中时 abstain），最小补丁合入；上游测试与 fixture 未安装。

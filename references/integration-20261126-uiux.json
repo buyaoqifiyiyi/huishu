@@ -1,0 +1,54 @@
+{
+ "date": "2026-11-26",
+ "version": "1.10.7",
+ "entry": "huishu",
+ "new_independent_entries": 0,
+ "ui_ux_pro_max": {
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "previous_commit": "8db36338810d0942567b97ce439affd1619fcf31",
+  "commit": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c",
+  "license": "MIT",
+  "kind": "data-layer selective merge",
+  "adopted": [
+   "stacks/pyside6-qss.csv byte-exact (68 Qt/QSS guidelines)",
+   "core.py registration: STACK_CONFIG, STACK_CURRENT_VERSIONS, STACK_CURRENT_APPLICABILITY, _STACK_QUERY_NAMES entries for pyside6-qss",
+   "validate_data.py STACK_OFFICIAL_HOSTS += pyside6-qss {doc.qt.io, qfluentwidgets.com}",
+   "catalog-summary counts stacks 23 / stackGuidelines 1346, verifiedAt 2026-11-26"
+  ],
+  "rejected": [
+   "shadcn component path fix (templates not installed)",
+   "platform template json bumps (not installed)"
+  ]
+ },
+ "files": [
+  {
+   "path": "SKILL.md",
+   "sha256_after": "93c8425265faea5a03299cb6df66bec97a6a818930fb0087e59a0280aae3caac"
+  },
+  {
+   "path": "CREDITS.md",
+   "sha256_after": "362954230760b37416211febfc79bcaa13f4979fe960075a4a8cb2a9a449a2a4"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/data/stacks/pyside6-qss.csv",
+   "sha256_after": "95c9f067dc6b250ea0b0eb6175ec41fc1e366524d6971202a4b71267518ea238"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/scripts/core.py",
+   "sha256_after": "3d7bd672a60cd74ead73e4c487bb673bc3cad70436ab58ed6c7fa1e6d4437db6"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/scripts/validate_data.py",
+   "sha256_after": "a15ae5141211196132b9159fb2e9bcc6d6fa33f703b8c00bcf230feabd5c13b0"
+  },
+  {
+   "path": "modules/ui-ux-pro-max/data/catalog-summary.json",
+   "sha256_after": "b0d757067f759a253b166dcfbb46b91e1a29e62c703bf3f6bbdce2e1bc826900"
+  }
+ ],
+ "validation": [
+  "validate_data OK (23 stack files)",
+  "quick_validate huishu valid",
+  "smoke: pyside6-qss registered, 68 rows, stack query matches, csv readback byte-exact"
+ ]
+}
