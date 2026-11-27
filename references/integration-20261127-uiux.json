@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-27",
+  "version": "1.10.8",
+  "entry": "huishu",
+  "new_independent_entries": 0,
+  "ui_ux_pro_max": {
+    "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "previous_commit": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c",
+    "commit": "9086b9277b88b529978a22dc523e05596206442d",
+    "license": "MIT",
+    "kind": "data-layer selective merge",
+    "adopted": [
+      "data/motion.csv rows 18-20 ambient/continuous-decoration presets byte-exact (20 presets total)",
+      "scripts/design_system.py byte-exact: dark-mode query markers anchored at word starts (homeschooled/water-cooled no longer match oled/cooled)",
+      "data/data-provenance.json byte-exact: core-motion-accessibility scope 1-20",
+      "data/catalog-summary.json counts-only: motionPresets 17->20, verifiedAt 2026-11-27"
+    ],
+    "rejected": [
+      "cip/logo/icon UTF-8 env and stdout fixes (generators not installed locally)",
+      "tailwind_config_gen .cts/.mts guard (not installed)",
+      "upstream tests and fixtures (not installed)",
+      "README.zh sync (documentation only)"
+    ]
+  },
+  "files": [
+    {
+      "path": "modules/ui-ux-pro-max/data/motion.csv",
+      "sha256": "be9a538ffc34027019f0da77a64395d53520d17a43d3591a4a4d5d069b1ccffa"
+    },
+    {
+      "path": "modules/ui-ux-pro-max/scripts/design_system.py",
+      "sha256": "b2beb2379832e98f744e81ca4322d523e78f12ac899ea9991a394e16a15ee71d"
+    },
+    {
+      "path": "modules/ui-ux-pro-max/data/data-provenance.json",
+      "sha256": "4b5069b0956d5c8148c1d575f1cb6a50ebaaa8b04289429a057a51e68d35b861"
+    },
+    {
+      "path": "modules/ui-ux-pro-max/data/catalog-summary.json",
+      "sha256": "aa587ac101ef95815d90969561bcee25decfb09af9a5a6638dad0d7dd864e10c"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "2035938940cc108238d78efe2e4a9834c8b28cbe22a2a1e6526c028f61e644ed"
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "3a64fa008522b9aab3b6735e58c425eb6dcff9f5930b7182f7885ea58cdb3bfb"
+    }
+  ],
+  "validation": [
+    "validate_data.py OK (12 domain, 23 stack files)",
+    "quick_validate valid",
+    "dark-mode marker smoke 5/5",
+    "motion.csv 20 preset rows readback byte-exact"
+  ]
+}

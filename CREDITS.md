@@ -63,3 +63,7 @@
 
 - [Storybook 的 stories 文档](https://storybook.js.org/docs/writing-stories)（[MIT](https://github.com/storybookjs/storybook/blob/20075e60242c908616d9ce8783a0686fc0ba896d/LICENSE)）提供单独呈现组件状态的方法。绘枢以本地措辞将其融入[实现与行为验收](modules/impeccable/references/review.md#b核对实现与行为)，复用项目已有工具。
 - [Anthropic frontend-design](https://github.com/anthropics/skills/blob/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/frontend-design/SKILL.md)（[Apache-2.0](https://github.com/anthropics/skills/blob/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/frontend-design/LICENSE.txt)）提供结构标记表达内容关系的判据，绘枢将其重述于[设计审稿](modules/impeccable/references/review.md#a形成设计判断)，并接入概念审稿。两项补充均未复制上游文件、代码或运行时。
+
+## 1.10.8 (2026-11-27)
+
+- ui-ux-pro-max upstream 9086b92: motion.csv adds 3 ambient/continuous-decoration presets (rows 18-20, byte-exact); design_system.py anchors dark-mode query markers at word starts (byte-exact); data-provenance motion scope 1-20 (byte-exact); catalog-summary motionPresets 20, verifiedAt 2026-11-27. Upstream tests, cip/logo/icon encoding fixes and README sync not installed, not adopted.
